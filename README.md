@@ -1,7 +1,7 @@
 # 💫 About Me:
 👋 Hey there, I’m Vaibhav!<br>	•	🎯 Passionate about development — I thrive on building things that can leave a lasting impact.<br>	•	🧠 Currently pursuing a B.Tech in Artificial Intelligence & Machine Learning.<br>	•	🎓 Studying at Birla Institute of Technology, Mesra.<br>	•	📅 I’m in my 3rd year of engineering.<br>	•	🚀 Always exploring new technologies and turning ideas into real-world projects.<br>	•	⚡ Love the spark that coding brings — it’s not just logic, it’s creativity with purpose.
 
-
+![Coding GIF](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjFrbjhtdzdiNG5iMmNpOXBuMjR3OWd3bm4wM3ZrcmJ4Ymw2Mzh5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XAdbHJywVjF5K/giphy.gif)
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vaibhav_dangaich_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-dangaich) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vaibhavdangaich@gmail.com) 
 
