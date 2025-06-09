@@ -12,15 +12,15 @@
 ![](https://github-readme-stats.vercel.app/api?username=VaibhavDangaich&theme=monokai&hide_border=false&include_all_commits=true&count_private=true)<br/>
 ![](https://nirzak-streak-stats.vercel.app/?user=VaibhavDangaich&theme=monokai&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=VaibhavDangaich&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=VaibhavDangaich&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
 </picture>
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=VaibhavDangaich&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
+
 
 ---
 [![](https://visitcount.itsvg.in/api?id=VaibhavDangaich&icon=0&color=0)](https://visitcount.itsvg.in)
