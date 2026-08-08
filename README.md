@@ -2,9 +2,9 @@
 
 <img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/hero.svg" width="100%" alt="Vaibhav Dangaich — AI agents · knowledge graphs · full-stack" />
 
-<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://arxiv.org/abs/2607.28662"><img src="https://img.shields.io/badge/arXiv-2607.28662-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv preprint 2607.28662" /></a> <a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="mnex on npm" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b0d17?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0E0E12?style=for-the-badge&logo=linkedin&logoColor=C6A87C" alt="LinkedIn" /></a> <a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-0E0E12?style=for-the-badge&logo=gmail&logoColor=C6A87C" alt="Email" /></a> <a href="https://arxiv.org/abs/2607.28662"><img src="https://img.shields.io/badge/arXiv%202607.28662-0E0E12?style=for-the-badge&logo=arxiv&logoColor=C6A87C" alt="arXiv preprint 2607.28662" /></a> <a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/badge/npm-0E0E12?style=for-the-badge&logo=npm&logoColor=C6A87C" alt="mnex on npm" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E0E12?style=for-the-badge&logo=vercel&logoColor=C6A87C" alt="Portfolio" /></a>
 
-<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=7aa2f7&label=profile+views" alt="profile views" /> <img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=0b0d17&label=followers" alt="followers" /> <img src="https://img.shields.io/badge/open%20to-internships%20%26%20new%20grad%20roles-9ece6a?style=flat-square&labelColor=0b0d17" alt="open to internships and new grad roles" />
+<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=2B2B33&label=profile+views" alt="profile views" /> <img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=2B2B33&labelColor=0E0E12&label=followers" alt="followers" /> <img src="https://img.shields.io/badge/open%20to-internships%20%26%20new%20grad%20roles-2B2B33?style=flat-square&labelColor=0E0E12" alt="open to internships and new grad roles" />
 
 <img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/signal.svg" width="100%" alt="CGPA 8.4 at BIT Mesra · 400+ DSA problems solved · Top 5 of 200+ teams at IEEE CTF · arXiv preprint published · mnex v1.5.1 live on npm" />
 
@@ -126,11 +126,9 @@ A versioned **policy-as-code** engine rules and cites the exact rule; a self-ver
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=VaibhavDangaich&theme=tokyonight&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="github stats" /> <img height="165" src="https://streak-stats.demolab.com/?user=VaibhavDangaich&theme=tokyonight&hide_border=true" alt="contribution streak" />
+<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=VaibhavDangaich&show_icons=true&include_all_commits=true&count_private=true&bg_color=0E0E12&title_color=C6A87C&text_color=9A9AA4&icon_color=C6A87C&border_color=26262E&border_radius=14&ring_color=C6A87C" alt="github stats" /> <img height="170" src="https://streak-stats.demolab.com/?user=VaibhavDangaich&background=0E0E12&border=26262E&stroke=26262E&ring=C6A87C&fire=C6A87C&currStreakNum=F0EDE8&sideNums=9A9AA4&currStreakLabel=C6A87C&sideLabels=9A9AA4&dates=4E4E58&border_radius=14" alt="contribution streak" />
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VaibhavDangaich&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" alt="most used languages" /> <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VaibhavDangaich&theme=tokyonight&utcOffset=5.5" alt="what time of day I commit" />
-
-<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=VaibhavDangaich&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20graph" alt="contribution activity graph" />
+<img width="99%" src="https://github-readme-activity-graph.vercel.app/graph?username=VaibhavDangaich&bg_color=0E0E12&color=F0EDE8&line=C6A87C&point=F0EDE8&title_color=C6A87C&area=true&area_color=C6A87C&radius=14&custom_title=Contribution%20graph" alt="contribution activity graph" />
 
 </div>
 
@@ -152,7 +150,7 @@ A versioned **policy-as-code** engine rules and cites the exact rule; a self-ver
 
 <div align="center">
 
-<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/say%20hi%20%F0%9F%91%8B-7aa2f7?style=for-the-badge&labelColor=0b0d17" alt="say hi" /></a> <a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0b0d17" alt="connect on LinkedIn" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/see%20the%20work-bb9af7?style=for-the-badge&labelColor=0b0d17" alt="see the work" /></a>
+<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/say%20hi-0E0E12?style=for-the-badge&labelColor=0E0E12&color=1C1C22" alt="say hi" /></a> <a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/connect-0E0E12?style=for-the-badge&logo=linkedin&logoColor=C6A87C&color=1C1C22" alt="connect on LinkedIn" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/see%20the%20work-0E0E12?style=for-the-badge&labelColor=0E0E12&color=1C1C22" alt="see the work" /></a>
 
 <sub>⭐ If something here was useful, a star makes my day.</sub>
 

@@ -1,35 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 112" width="1200" height="112" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="8.4 CGPA · BIT MESRA; 400+ DSA PROBLEMS SOLVED; TOP 5 IEEE CTF · 200+ TEAMS; arXiv PREPRINT PUBLISHED; v1.5.1 MNEX LIVE ON NPM">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 116" width="1200" height="116" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="8.4 CGPA · BIT MESRA · 400+ DSA PROBLEMS SOLVED · Top 5 IEEE CTF · 200+ TEAMS · arXiv PREPRINT PUBLISHED · v1.5.1 MNEX LIVE ON NPM">
 <defs>
-<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#12141f"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
-<linearGradient id="tv0" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#7aa2f7"/></linearGradient>
-<linearGradient id="tv1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#bb9af7"/></linearGradient>
-<linearGradient id="tv2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#2ac3de"/></linearGradient>
-<linearGradient id="tv3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#9ece6a"/></linearGradient>
-<linearGradient id="tv4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#e0af68"/></linearGradient>
-<clipPath id="gc"><rect width="1200" height="112" rx="16"/></clipPath>
+<linearGradient id="gbg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0%" stop-color="#0E0E12"/><stop offset="100%" stop-color="#08080A"/></linearGradient>
+<filter id="gg" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".55"/></feComponentTransfer></filter>
+<clipPath id="gc"><rect width="1200" height="116" rx="16"/></clipPath>
 </defs>
-<style>@keyframes tp{0%,100%{opacity:.25}50%{opacity:.75}}.tp{animation:tp 3.6s ease-in-out infinite}</style>
 <g clip-path="url(#gc)">
-<rect width="1200" height="112" fill="url(#gbg)"/>
-<rect class="tp" x="26.0" y="18" width="220.0" height="76" rx="12" fill="#7aa2f7" fill-opacity=".07" style="animation-delay:0.0s"/>
-<rect x="26.0" y="18" width="220.0" height="76" rx="12" fill="none" stroke="#7aa2f7" stroke-opacity=".28" stroke-width="1"/>
-<text x="136.0" y="58" text-anchor="middle" font-size="27" font-weight="800" fill="url(#tv0)">8.4</text>
-<text x="136.0" y="80" text-anchor="middle" font-size="11.5" letter-spacing=".7" fill="#8b93b8">CGPA · BIT MESRA</text>
-<rect class="tp" x="258.0" y="18" width="220.0" height="76" rx="12" fill="#bb9af7" fill-opacity=".07" style="animation-delay:0.5s"/>
-<rect x="258.0" y="18" width="220.0" height="76" rx="12" fill="none" stroke="#bb9af7" stroke-opacity=".28" stroke-width="1"/>
-<text x="368.0" y="58" text-anchor="middle" font-size="27" font-weight="800" fill="url(#tv1)">400+</text>
-<text x="368.0" y="80" text-anchor="middle" font-size="11.5" letter-spacing=".7" fill="#8b93b8">DSA PROBLEMS SOLVED</text>
-<rect class="tp" x="490.0" y="18" width="220.0" height="76" rx="12" fill="#2ac3de" fill-opacity=".07" style="animation-delay:1.0s"/>
-<rect x="490.0" y="18" width="220.0" height="76" rx="12" fill="none" stroke="#2ac3de" stroke-opacity=".28" stroke-width="1"/>
-<text x="600.0" y="58" text-anchor="middle" font-size="27" font-weight="800" fill="url(#tv2)">TOP 5</text>
-<text x="600.0" y="80" text-anchor="middle" font-size="11.5" letter-spacing=".7" fill="#8b93b8">IEEE CTF · 200+ TEAMS</text>
-<rect class="tp" x="722.0" y="18" width="220.0" height="76" rx="12" fill="#9ece6a" fill-opacity=".07" style="animation-delay:1.5s"/>
-<rect x="722.0" y="18" width="220.0" height="76" rx="12" fill="none" stroke="#9ece6a" stroke-opacity=".28" stroke-width="1"/>
-<text x="832.0" y="58" text-anchor="middle" font-size="27" font-weight="800" fill="url(#tv3)">arXiv</text>
-<text x="832.0" y="80" text-anchor="middle" font-size="11.5" letter-spacing=".7" fill="#8b93b8">PREPRINT PUBLISHED</text>
-<rect class="tp" x="954.0" y="18" width="220.0" height="76" rx="12" fill="#e0af68" fill-opacity=".07" style="animation-delay:2.0s"/>
-<rect x="954.0" y="18" width="220.0" height="76" rx="12" fill="none" stroke="#e0af68" stroke-opacity=".28" stroke-width="1"/>
-<text x="1064.0" y="58" text-anchor="middle" font-size="27" font-weight="800" fill="url(#tv4)">v1.5.1</text>
-<text x="1064.0" y="80" text-anchor="middle" font-size="11.5" letter-spacing=".7" fill="#8b93b8">MNEX LIVE ON NPM</text>
-<rect x=".75" y=".75" width="1198.5" height="110.5" rx="16" fill="none" stroke="#2a2f4a" stroke-width="1.5"/>
+<rect width="1200" height="116" fill="url(#gbg)"/>
+<text x="142.0" y="60" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="30" fill="#F0EDE8">8.4</text>
+<rect x="132.0" y="70" width="20" height="1" fill="#C6A87C" opacity=".6"/>
+<text x="142.0" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#4E4E58">CGPA · BIT MESRA</text>
+<line x1="257.0" y1="30" x2="257.0" y2="86" stroke="#26262E" stroke-width="1"/>
+<text x="371.0" y="60" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="30" fill="#F0EDE8">400+</text>
+<rect x="361.0" y="70" width="20" height="1" fill="#C6A87C" opacity=".6"/>
+<text x="371.0" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#4E4E58">DSA PROBLEMS SOLVED</text>
+<line x1="486.0" y1="30" x2="486.0" y2="86" stroke="#26262E" stroke-width="1"/>
+<text x="600.0" y="60" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="30" fill="#F0EDE8">Top 5</text>
+<rect x="590.0" y="70" width="20" height="1" fill="#C6A87C" opacity=".6"/>
+<text x="600.0" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#4E4E58">IEEE CTF · 200+ TEAMS</text>
+<line x1="715.0" y1="30" x2="715.0" y2="86" stroke="#26262E" stroke-width="1"/>
+<text x="829.0" y="60" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="30" fill="#F0EDE8">arXiv</text>
+<rect x="819.0" y="70" width="20" height="1" fill="#C6A87C" opacity=".6"/>
+<text x="829.0" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#4E4E58">PREPRINT PUBLISHED</text>
+<line x1="944.0" y1="30" x2="944.0" y2="86" stroke="#26262E" stroke-width="1"/>
+<text x="1058.0" y="60" text-anchor="middle" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="30" fill="#F0EDE8">v1.5.1</text>
+<rect x="1048.0" y="70" width="20" height="1" fill="#C6A87C" opacity=".6"/>
+<text x="1058.0" y="88" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.6" fill="#4E4E58">MNEX LIVE ON NPM</text>
+<rect width="1200" height="116" filter="url(#gg)" opacity=".045" style="mix-blend-mode:overlay"/>
+<rect x=".5" y=".5" width="1199" height="115" rx="16" fill="none" stroke="#26262E" stroke-width="1"/>
 </g></svg>

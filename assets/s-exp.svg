@@ -1,22 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 78" width="1200" height="78" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="01 — EXPERIENCE">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="01 — Experience">
 <defs>
-<linearGradient id="hl" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7aa2f7"/><stop offset="50%" stop-color="#ffffff"/><stop offset="100%" stop-color="#7aa2f7"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="7s" repeatCount="indefinite"/></linearGradient>
-<linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#12141f"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
-<linearGradient id="hr" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7aa2f7" stop-opacity=".85"/><stop offset="100%" stop-color="#7aa2f7" stop-opacity="0"/></linearGradient>
-<radialGradient id="hglow" cx="4%" cy="50%" r="42%"><stop offset="0%" stop-color="#7aa2f7" stop-opacity=".22"/><stop offset="100%" stop-color="#7aa2f7" stop-opacity="0"/></radialGradient>
-<clipPath id="hc"><rect width="1200" height="78" rx="14"/></clipPath>
+<linearGradient id="hbg" x1="0" y1="0" x2="0.4" y2="1"><stop offset="0%" stop-color="#0E0E12"/><stop offset="100%" stop-color="#08080A"/></linearGradient>
+<linearGradient id="hrule" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#C6A87C" stop-opacity="0"/><stop offset="45%" stop-color="#C6A87C" stop-opacity=".7"/><stop offset="100%" stop-color="#C6A87C" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="18s" repeatCount="indefinite"/></linearGradient>
+<linearGradient id="hfade" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#26262E"/><stop offset="100%" stop-color="#26262E" stop-opacity="0"/></linearGradient>
+<filter id="hg" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".55"/></feComponentTransfer></filter>
+<clipPath id="hc"><rect width="1200" height="84" rx="14"/></clipPath>
 </defs>
-<style>@keyframes bp{0%,100%{opacity:.35}50%{opacity:1}}.bp{animation:bp 2.6s ease-in-out infinite}</style>
 <g clip-path="url(#hc)">
-<rect width="1200" height="78" fill="url(#hbg)"/>
-<rect width="1200" height="78" fill="url(#hglow)"/>
-<rect x="26" y="19" width="4" height="42" rx="2" fill="url(#hl)"/>
-<text x="46" y="36" font-size="12" font-weight="700" letter-spacing="2.5" fill="#7aa2f7" opacity=".8">01</text>
-<text x="46" y="62" font-size="27" font-weight="800" letter-spacing="1.2" fill="#e6ecff">EXPERIENCE</text>
-<text x="250" y="61" font-size="13" letter-spacing="1.6" fill="#8b93b8" opacity=".95">where I&#x27;ve shipped</text>
-<rect x="420" y="53" width="694" height="1.5" fill="url(#hr)"/>
-<circle class="bp" cx="1160" cy="54" r="3" fill="#7aa2f7" style="animation-delay:0.00s"/>
-<circle class="bp" cx="1144" cy="54" r="3" fill="#7aa2f7" style="animation-delay:0.35s"/>
-<circle class="bp" cx="1128" cy="54" r="3" fill="#7aa2f7" style="animation-delay:0.70s"/>
-<rect x=".75" y=".75" width="1198.5" height="76.5" rx="14" fill="none" stroke="#2a2f4a" stroke-width="1.5"/>
+<rect width="1200" height="84" fill="url(#hbg)"/>
+<text x="28" y="32" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="2.4" fill="#C6A87C" opacity=".8">01</text>
+<text x="28" y="65" font-family="'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="27" letter-spacing=".4" fill="#F0EDE8">Experience</text>
+<text x="192" y="63" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10.5" letter-spacing="1.9" fill="#4E4E58">WHERE I&#x27;VE SHIPPED</text>
+<rect x="364" y="57" width="808" height="1" fill="url(#hfade)"/>
+<rect x="364" y="57" width="808" height="1" fill="url(#hrule)" opacity=".7"/>
+<rect width="1200" height="84" filter="url(#hg)" opacity=".045" style="mix-blend-mode:overlay"/>
+<rect x=".5" y=".5" width="1199" height="83" rx="14" fill="none" stroke="#26262E" stroke-width="1"/>
 </g></svg>
