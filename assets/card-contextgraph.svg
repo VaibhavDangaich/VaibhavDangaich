@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 116" width="620" height="116" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="Context Graph">
+<defs>
+<linearGradient id="cb" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#141728"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
+<linearGradient id="cbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#2ac3de"/><stop offset="50%" stop-color="#ffffff"/><stop offset="100%" stop-color="#2ac3de"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="6s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="cglow" cx="88%" cy="12%" r="60%"><stop offset="0%" stop-color="#2ac3de" stop-opacity=".30"/><stop offset="100%" stop-color="#2ac3de" stop-opacity="0"/></radialGradient>
+<filter id="cg" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="cc"><rect x="0" y="0" width="620" height="116" rx="14"/></clipPath>
+</defs>
+<style>@keyframes fl{0%,100%{opacity:.3;r:2.2}50%{opacity:1;r:3.4}}@keyframes sl{0%{transform:translateX(-120px)}100%{transform:translateX(700px)}}.fl{animation:fl 3s ease-in-out infinite}.sl{animation:sl 5.5s ease-in-out infinite}</style>
+<g clip-path="url(#cc)">
+<rect width="620" height="116" fill="url(#cb)"/>
+<rect width="620" height="116" fill="url(#cglow)"/>
+<g opacity=".55">
+<line x1="486" y1="30" x2="526" y2="18" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="526" y1="18" x2="560" y2="42" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="560" y1="42" x2="596" y2="26" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="560" y1="42" x2="540" y2="66" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="540" y1="66" x2="500" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="486" y1="30" x2="500" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="596" y1="26" x2="588" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<line x1="540" y1="66" x2="588" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".35"/>
+<circle class="fl" cx="486" cy="30" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:0.00s"/>
+<circle class="fl" cx="526" cy="18" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:0.42s"/>
+<circle class="fl" cx="560" cy="42" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:0.84s"/>
+<circle class="fl" cx="596" cy="26" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:1.26s"/>
+<circle class="fl" cx="540" cy="66" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:1.68s"/>
+<circle class="fl" cx="500" cy="62" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:2.10s"/>
+<circle class="fl" cx="588" cy="62" r="2.6" fill="#2ac3de" filter="url(#cg)" style="animation-delay:2.52s"/>
+</g>
+<rect class="sl" x="-120" y="0" width="90" height="116" fill="#ffffff" opacity=".035" transform="skewX(-18)"/>
+<rect x="0" y="0" width="5" height="116" fill="url(#cbar)"/>
+<text x="26" y="46" font-size="24" font-weight="800" letter-spacing=".3" fill="#e6ecff">Context Graph</text>
+<g opacity=".95"><rect x="26.0" y="70" width="68.8" height="26" rx="13" fill="#2ac3de" fill-opacity=".12" stroke="#2ac3de" stroke-opacity=".38" stroke-width="1"/><circle class="fl" cx="38.0" cy="83" r="3" fill="#2ac3de" style="animation-delay:0.00s"/><text x="48.0" y="87.5" font-size="12.5" fill="#e6ecff" opacity=".92">Python</text></g>
+<g opacity=".95"><rect x="103.8" y="70" width="62.1" height="26" rx="13" fill="#2ac3de" fill-opacity=".12" stroke="#2ac3de" stroke-opacity=".38" stroke-width="1"/><circle class="fl" cx="115.8" cy="83" r="3" fill="#2ac3de" style="animation-delay:0.50s"/><text x="125.8" y="87.5" font-size="12.5" fill="#e6ecff" opacity=".92">Neo4j</text></g>
+<g opacity=".95"><rect x="174.9" y="70" width="77.4" height="26" rx="13" fill="#2ac3de" fill-opacity=".12" stroke="#2ac3de" stroke-opacity=".38" stroke-width="1"/><circle class="fl" cx="186.9" cy="83" r="3" fill="#2ac3de" style="animation-delay:1.00s"/><text x="196.9" y="87.5" font-size="12.5" fill="#e6ecff" opacity=".92">FastAPI</text></g>
+<rect x=".75" y=".75" width="618.5" height="114.5" rx="14" fill="none" stroke="#2a2f4a" stroke-width="1.5"/>
+</g></svg>
