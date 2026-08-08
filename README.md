@@ -1,33 +1,190 @@
-# 💫 About Me:
-👋 Hey there, I’m Vaibhav!<br>	•	🎯 Passionate about development — I thrive on building things that can leave a lasting impact.<br>	•	🧠 Currently pursuing a B.Tech in Artificial Intelligence & Machine Learning.<br>	•	🎓 Studying at Birla Institute of Technology, Mesra.<br>	•	📅 I’m in my 3rd year of engineering.<br>	•	🚀 Always exploring new technologies and turning ideas into real-world projects.<br>	•	⚡ Love the spark that coding brings — it’s not just logic, it’s creativity with purpose.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:7aa2f7,100:bb9af7&height=200&section=header&text=Vaibhav%20Dangaich&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=AI%20Agents%20%C2%B7%20Knowledge%20Graphs%20%C2%B7%20Full-Stack&descAlignY=54&descSize=16&animation=fadeIn" width="100%" />
 
-<p align="center">
-  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjFrbjhtdzdiNG5iMmNpOXBuMjR3OWd3bm4wM3ZrcmJ4Ymw2Mzh5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XAdbHJywVjF5K/giphy.gif" width="300" />
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3ZnoycGsxaXdwMHl5dXg5bmpseHk1bTlmaHFldjdjdGtnMGgwNzN2MiZlcD12MV9naWZzX3JlbGF0ZWQmY3Q9Zw/5qFQhmVkF0mfDoymL5/giphy.gif" width="300" />
-</p>
+<div align="center">
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vaibhav_dangaich_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-dangaich) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:vaibhavdangaich@gmail.com) 
+<a href="https://github.com/VaibhavDangaich">
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&lines=I+build+AI+agents+that+actually+finish+the+job;Knowledge+graphs+%E2%86%92+context+that+outlives+a+session;LLMs+propose.+Policy+engines+decide.;Turning+ideas+into+things+people+can+run" alt="what I build" />
+</a>
 
+<br/>
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white) ![Chart.js](https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-%23EC5990.svg?style=for-the-badge&logo=reacthookform&logoColor=white) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Socket.io](https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=VaibhavDangaich&theme=monokai&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=VaibhavDangaich&theme=monokai&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=VaibhavDangaich&theme=monokai&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-dangaich)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaibhavdangaich@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-1a1b26?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-khaki-ten-24.vercel.app)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/vaibhav_dangaich_)
 
+<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=7aa2f7&label=profile+views" alt="profile views" />
+<img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=1a1b26" alt="followers" />
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=VaibhavDangaich&theme=onedark&no-frame=false&no-bg=false&margin-w=4)
+</div>
 
+---
+
+## 🧑‍🚀 About me
+
+<table>
+<tr>
+<td valign="top">
+
+```yaml
+name:     Vaibhav Dangaich
+studying: B.Tech, AI & Machine Learning
+at:       BIT Mesra
+building: agentic systems, knowledge
+          graphs, developer tools
+loves:    the moment an idea starts
+          running on its own
+```
+
+</td>
+<td valign="top" width="300">
+<img width="300" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjFrbjhtdzdiNG5iMmNpOXBuMjR3OWd3bm4wM3ZrcmJ4Ymw2Mzh5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XAdbHJywVjF5K/giphy.gif" alt="coding" />
+</td>
+</tr>
+</table>
+
+- 🧠 I like problems that sit **between an LLM and a real system** — memory, state, audit trails, the boring parts that make an agent trustworthy.
+- 🕸️ Most of my recent work turns messy things into **graphs you can query**: agent sessions, FOIA documents, order lifecycles.
+- 🛠️ I ship end-to-end — extension, backend, worker, graph DB, UI — rather than stopping at the demo.
+- ⚡ Coding isn't just logic to me; it's creativity with a purpose.
+
+---
+
+## 🚀 Featured builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🧬 [mnex](https://github.com/VaibhavDangaich/MNEX)
+A cognitive-architecture-inspired **AI coding agent that lives in your terminal** — persistent multi-layer memory, a causal work graph, local-first routing and a plugin SDK.
+
+`npm i -g @vaibhav_dangaich/mnex`
+
+![Node](https://img.shields.io/badge/Node-339933?style=flat-square&logo=node.js&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-1c3c3c?style=flat-square) ![npm](https://img.shields.io/badge/published-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🗂️ [FOIAtlas](https://github.com/VaibhavDangaich/foiatlas)
+Turns a pile of released **FOIA/RTI documents into a navigable graph** of who knew what, when. Its signature idea: every **redaction is a first-class node** — a queryable investigative lead, not an absence.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![Kùzu](https://img.shields.io/badge/K%C3%B9zu-5b8def?style=flat-square) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧩 [Context Graph](https://github.com/VaibhavDangaich/Context_graph)
+Captures **everything your AI coding agent did** as a Neo4j knowledge graph — then exports the compact context that lets a brand-new session resume exactly where the last one stopped.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white) ![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 👁️ [Visual Activity Agent](https://github.com/VaibhavDangaich/visual-activity-agent)
+A privacy-conscious **Chrome MV3 extension** that ships browsing signals + downscaled screenshots to Supabase, and lets **Gemini vision** explain what you were actually doing. Browser stays fast; everything expensive runs server-side.
+
+![Chrome](https://img.shields.io/badge/MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini%20Vision-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛰️ [Order Supervisor](https://github.com/VaibhavDangaich/Sagepilot)
+A **long-running AI supervisor** that owns one order's entire lifecycle on **Temporal**. It reasons at three triggers — start, signal, scheduled wake-up — and sleeps in between, with cross-run semantic memory.
+
+![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white) ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏦 [Servicing Agent](https://github.com/VaibhavDangaich/Codestreet_2026)
+A card-servicing agent where **the LLM never decides** — it only proposes. A versioned **policy-as-code** engine rules, cites the exact rule, and every step lands in a **tamper-evident hash-chained audit trail**.
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=white) ![Policy--as--Code](https://img.shields.io/badge/Policy--as--Code-bb9af7?style=flat-square) ![Audit](https://img.shields.io/badge/hash--chained%20audit-7aa2f7?style=flat-square)
+
+</td>
+</tr>
+</table>
+
+> 🎨 **[Portfolio](https://github.com/VaibhavDangaich/Portfolio)** — an editorial Next.js 15 site with a 3D knowledge-graph hero, drag-throw physics cards, and a hanging bulb an arrow shatters to toggle dark mode. → **[see it live](https://portfolio-khaki-ten-24.vercel.app)**
+
+---
+
+## 🧰 Tech stack
+
+<table>
+<tr><td><b>Languages</b></td><td>
+
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)
+
+</td></tr>
+<tr><td><b>AI & agents</b></td><td>
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1c3c3c?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1c3c3c?style=flat-square&logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+
+</td></tr>
+<tr><td><b>Web</b></td><td>
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/React-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![React Native](https://img.shields.io/badge/React%20Native-20232a?style=flat-square&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=flat-square&logo=node.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Redux](https://img.shields.io/badge/Redux-593d88?style=flat-square&logo=redux&logoColor=white) ![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
+
+</td></tr>
+<tr><td><b>Data</b></td><td>
+
+![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white) ![Kùzu](https://img.shields.io/badge/K%C3%B9zu-5b8def?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=flat-square&logo=mongodb&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=flat-square&logo=prisma&logoColor=white)
+
+</td></tr>
+<tr><td><b>Ship it</b></td><td>
+
+![Git](https://img.shields.io/badge/Git-F05033?style=flat-square&logo=git&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=white) ![npm](https://img.shields.io/badge/npm-CB3837?style=flat-square&logo=npm&logoColor=white)
+
+</td></tr>
+</table>
+
+---
+
+## 📊 By the numbers
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=VaibhavDangaich&theme=tokyonight&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="github stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=VaibhavDangaich&theme=tokyonight&hide_border=true" alt="streak" />
+
+<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=VaibhavDangaich&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8" alt="top languages" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=VaibhavDangaich&theme=tokyonight&utcOffset=5.5" alt="when I commit" />
+
+<img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=VaibhavDangaich&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution%20graph" alt="contribution graph" />
+
+</div>
+
+---
+
+## 🐍 Watch the snake eat my commits
+
+<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
 </picture>
+</div>
+
 ---
 
+<div align="center">
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### 💬 Got an idea worth building?
+
+I'm always up for a conversation about agents, graphs, or anything that shouldn't work but does.
+
+[![Say hi](https://img.shields.io/badge/say%20hi%20%F0%9F%91%8B-7aa2f7?style=for-the-badge&logoColor=white)](mailto:vaibhavdangaich@gmail.com)
+
+<i>⭐ If something here was useful, a star makes my day.</i>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=120&section=footer" width="100%" />
