@@ -1,54 +1,32 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b26,50:7aa2f7,100:bb9af7&height=200&section=header&text=Vaibhav%20Dangaich&fontSize=52&fontColor=ffffff&fontAlignY=34&desc=AI%20Agents%20%C2%B7%20Knowledge%20Graphs%20%C2%B7%20Full-Stack&descAlignY=54&descSize=16&animation=fadeIn" width="100%" />
-
 <div align="center">
 
-<a href="https://github.com/VaibhavDangaich">
-  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=21&duration=3200&pause=900&color=7AA2F7&center=true&vCenter=true&width=680&lines=I+build+AI+agents+that+actually+finish+the+job;Knowledge+graphs+%E2%86%92+context+that+outlives+a+session;LLMs+propose.+Policy+engines+decide.;Turning+ideas+into+things+people+can+run" alt="what I build" />
-</a>
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/hero.svg" width="100%" alt="Vaibhav Dangaich — AI agents · knowledge graphs · full-stack" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-dangaich)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-dangaich)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vaibhavdangaich@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-1a1b26?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-khaki-ten-24.vercel.app)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/vaibhav_dangaich_)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0b0d17?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-khaki-ten-24.vercel.app)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/vaibhav_dangaich_)
 
 <img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=7aa2f7&label=profile+views" alt="profile views" />
-<img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=1a1b26" alt="followers" />
+<img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=0b0d17&label=followers" alt="followers" />
+<img src="https://img.shields.io/badge/open%20to-internships%20%26%20collabs-9ece6a?style=flat-square&labelColor=0b0d17" alt="open to work" />
+
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
+
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/terminal.svg" width="88%" alt="whoami — Vaibhav Dangaich, B.Tech AI &amp; ML @ BIT Mesra" />
 
 </div>
 
----
+<br/>
 
-## 🧑‍🚀 About me
-
-<table>
-<tr>
-<td valign="top">
-
-```yaml
-name:     Vaibhav Dangaich
-studying: B.Tech, AI & Machine Learning
-at:       BIT Mesra
-building: agentic systems, knowledge
-          graphs, developer tools
-loves:    the moment an idea starts
-          running on its own
-```
-
-</td>
-<td valign="top" width="300">
-<img width="300" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjFrbjhtdzdiNG5iMmNpOXBuMjR3OWd3bm4wM3ZrcmJ4Ymw2Mzh5ciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XAdbHJywVjF5K/giphy.gif" alt="coding" />
-</td>
-</tr>
-</table>
-
-- 🧠 I like problems that sit **between an LLM and a real system** — memory, state, audit trails, the boring parts that make an agent trustworthy.
+- 🧠 I like the problems that sit **between an LLM and a real system** — memory, state, audit trails, the unglamorous parts that make an agent trustworthy.
 - 🕸️ Most of my recent work turns messy things into **graphs you can query**: agent sessions, FOIA documents, order lifecycles.
-- 🛠️ I ship end-to-end — extension, backend, worker, graph DB, UI — rather than stopping at the demo.
+- 🛠️ I ship end-to-end — extension, backend, worker, graph DB, UI — instead of stopping at the demo.
 - ⚡ Coding isn't just logic to me; it's creativity with a purpose.
 
----
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
 
 ## 🚀 Featured builds
 
@@ -85,7 +63,7 @@ Captures **everything your AI coding agent did** as a Neo4j knowledge graph — 
 <td width="50%" valign="top">
 
 ### 👁️ [Visual Activity Agent](https://github.com/VaibhavDangaich/visual-activity-agent)
-A privacy-conscious **Chrome MV3 extension** that ships browsing signals + downscaled screenshots to Supabase, and lets **Gemini vision** explain what you were actually doing. Browser stays fast; everything expensive runs server-side.
+A privacy-conscious **Chrome MV3 extension** that ships browsing signals + downscaled screenshots to Supabase, then lets **Gemini vision** explain what you were actually doing. The browser stays fast; everything expensive runs server-side.
 
 ![Chrome](https://img.shields.io/badge/MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini%20Vision-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
@@ -113,7 +91,7 @@ A card-servicing agent where **the LLM never decides** — it only proposes. A v
 
 > 🎨 **[Portfolio](https://github.com/VaibhavDangaich/Portfolio)** — an editorial Next.js 15 site with a 3D knowledge-graph hero, drag-throw physics cards, and a hanging bulb an arrow shatters to toggle dark mode. → **[see it live](https://portfolio-khaki-ten-24.vercel.app)**
 
----
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
 
 ## 🧰 Tech stack
 
@@ -123,7 +101,7 @@ A card-servicing agent where **the LLM never decides** — it only proposes. A v
 ![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E) ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 
 </td></tr>
-<tr><td><b>AI & agents</b></td><td>
+<tr><td><b>AI &amp; agents</b></td><td>
 
 ![LangGraph](https://img.shields.io/badge/LangGraph-1c3c3c?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1c3c3c?style=flat-square&logo=langchain&logoColor=white) ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white) ![Temporal](https://img.shields.io/badge/Temporal-000000?style=flat-square&logo=temporal&logoColor=white) ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
 
@@ -145,7 +123,7 @@ A card-servicing agent where **the LLM never decides** — it only proposes. A v
 </td></tr>
 </table>
 
----
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
 
 ## 📊 By the numbers
 
@@ -161,9 +139,9 @@ A card-servicing agent where **the LLM never decides** — it only proposes. A v
 
 </div>
 
----
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
 
-## 🐍 Watch the snake eat my commits
+## 🐍 …and here's a snake eating my commits
 
 <div align="center">
 <picture>
@@ -173,7 +151,7 @@ A card-servicing agent where **the LLM never decides** — it only proposes. A v
 </picture>
 </div>
 
----
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
@@ -183,8 +161,8 @@ I'm always up for a conversation about agents, graphs, or anything that shouldn'
 
 [![Say hi](https://img.shields.io/badge/say%20hi%20%F0%9F%91%8B-7aa2f7?style=for-the-badge&logoColor=white)](mailto:vaibhavdangaich@gmail.com)
 
-<i>⭐ If something here was useful, a star makes my day.</i>
+<sub>⭐ If something here was useful, a star makes my day.</sub>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,100:7aa2f7&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bb9af7,50:7aa2f7,100:2ac3de&height=120&section=footer" width="100%" alt="" />
