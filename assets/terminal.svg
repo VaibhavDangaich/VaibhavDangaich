@@ -3,14 +3,14 @@
 <linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#12141f"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
 <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#232742"/><stop offset="100%" stop-color="#191c2e"/></linearGradient>
 <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#7aa2f7"/><stop offset="50%" stop-color="#bb9af7"/><stop offset="100%" stop-color="#2ac3de"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="8s" repeatCount="indefinite"/></linearGradient>
-<clipPath id="c0"><rect x="0" y="63.0" width="116.0" height="27.0"><animate attributeName="width" values="0;0;116.0;116.0;0" keyTimes="0;0.0648;0.0874;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c1"><rect x="0" y="90.0" width="476.0" height="27.0"><animate attributeName="width" values="0;0;476.0;476.0;0" keyTimes="0;0.1166;0.1347;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c2"><rect x="0" y="117.0" width="170.0" height="27.0"><animate attributeName="width" values="0;0;170.0;170.0;0" keyTimes="0;0.1509;0.1859;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c3"><rect x="0" y="144.0" width="665.0" height="27.0"><animate attributeName="width" values="0;0;665.0;665.0;0" keyTimes="0;0.215;0.2332;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c4"><rect x="0" y="171.0" width="179.0" height="27.0"><animate attributeName="width" values="0;0;179.0;179.0;0" keyTimes="0;0.2494;0.2872;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c5"><rect x="0" y="198.0" width="656.0" height="27.0"><animate attributeName="width" values="0;0;656.0;656.0;0" keyTimes="0;0.3164;0.3345;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c6"><rect x="0" y="225.0" width="170.0" height="27.0"><animate attributeName="width" values="0;0;170.0;170.0;0" keyTimes="0;0.3507;0.3857;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
-<clipPath id="c7"><rect x="0" y="252.0" width="665.0" height="27.0"><animate attributeName="width" values="0;0;665.0;665.0;0" keyTimes="0;0.4148;0.433;0.9709;1" calcMode="linear" dur="15.44s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c0"><rect x="0" y="63.0" width="116.0" height="27.0"><animate attributeName="width" values="0;0;116.0" keyTimes="0;0.1441;0.1945" calcMode="linear" dur="1.35s" fill="freeze"/></rect></clipPath>
+<clipPath id="c1"><rect x="0" y="90.0" width="476.0" height="27.0"><animate attributeName="width" values="0;0;476.0" keyTimes="0;0.2594;0.2997" calcMode="linear" dur="2.08s" fill="freeze"/></rect></clipPath>
+<clipPath id="c2"><rect x="0" y="117.0" width="170.0" height="27.0"><animate attributeName="width" values="0;0;170.0" keyTimes="0;0.3357;0.4135" calcMode="linear" dur="2.87s" fill="freeze"/></rect></clipPath>
+<clipPath id="c3"><rect x="0" y="144.0" width="665.0" height="27.0"><animate attributeName="width" values="0;0;665.0" keyTimes="0;0.4784;0.5187" calcMode="linear" dur="3.60s" fill="freeze"/></rect></clipPath>
+<clipPath id="c4"><rect x="0" y="171.0" width="179.0" height="27.0"><animate attributeName="width" values="0;0;179.0" keyTimes="0;0.5548;0.639" calcMode="linear" dur="4.43s" fill="freeze"/></rect></clipPath>
+<clipPath id="c5"><rect x="0" y="198.0" width="656.0" height="27.0"><animate attributeName="width" values="0;0;656.0" keyTimes="0;0.7039;0.7442" calcMode="linear" dur="5.16s" fill="freeze"/></rect></clipPath>
+<clipPath id="c6"><rect x="0" y="225.0" width="170.0" height="27.0"><animate attributeName="width" values="0;0;170.0" keyTimes="0;0.7803;0.8581" calcMode="linear" dur="5.96s" fill="freeze"/></rect></clipPath>
+<clipPath id="c7"><rect x="0" y="252.0" width="665.0" height="27.0"><animate attributeName="width" values="0;0;665.0" keyTimes="0;0.9229;0.9633" calcMode="linear" dur="6.69s" fill="freeze"/></rect></clipPath>
 </defs>
 <style>@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}.cur{animation:blink .95s step-end infinite}</style>
 <rect x="1" y="1" width="858" height="336" rx="14" fill="url(#tbg)" stroke="#2a2f4a" stroke-width="1.5"/>
@@ -23,31 +23,31 @@
 <g clip-path="url(#c0)">
 <text x="26" y="78.0" font-size="15.0" xml:space="preserve"><tspan fill="#7aa2f7" font-weight="700">❯</tspan><tspan fill="#c0caf5" x="48">whoami</tspan></text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.0874;0.0884;0.1166;1" dur="15.44s" repeatCount="indefinite"/><rect class="cur" x="105.0" y="66.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.7500;0.7510;1" dur="1.80s" fill="freeze"/><rect class="cur" x="105.0" y="66.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
 <g clip-path="url(#c1)">
 <text x="48" y="105.0" font-size="15.0" fill="#9aa5ce" xml:space="preserve">vaibhav dangaich — b.tech, ai &amp; ml @ bit mesra</text>
 </g>
 <g clip-path="url(#c2)">
 <text x="26" y="132.0" font-size="15.0" xml:space="preserve"><tspan fill="#7aa2f7" font-weight="700">❯</tspan><tspan fill="#c0caf5" x="48">cat ~/.focus</tspan></text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.1859;0.1869;0.215;1" dur="15.44s" repeatCount="indefinite"/><rect class="cur" x="159.0" y="120.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.8645;0.8655;1" dur="3.32s" fill="freeze"/><rect class="cur" x="159.0" y="120.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
 <g clip-path="url(#c3)">
 <text x="48" y="159.0" font-size="15.0" fill="#9aa5ce" xml:space="preserve">agents that finish the job · graphs that remember · tools devs keep</text>
 </g>
 <g clip-path="url(#c4)">
 <text x="26" y="186.0" font-size="15.0" xml:space="preserve"><tspan fill="#7aa2f7" font-weight="700">❯</tspan><tspan fill="#c0caf5" x="48">mnex --status</tspan></text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.2872;0.2882;0.3164;1" dur="15.44s" repeatCount="indefinite"/><rect class="cur" x="168.0" y="174.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.9079;0.9089;1" dur="4.89s" fill="freeze"/><rect class="cur" x="168.0" y="174.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
 <g clip-path="url(#c5)">
 <text x="48" y="213.0" font-size="15.0" fill="#9ece6a" xml:space="preserve">memory 4-layer   work-graph causal   routing local-first   [ready]</text>
 </g>
 <g clip-path="url(#c6)">
 <text x="26" y="240.0" font-size="15.0" xml:space="preserve"><tspan fill="#7aa2f7" font-weight="700">❯</tspan><tspan fill="#c0caf5" x="48">ls ~/shipped</tspan></text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.3857;0.3867;0.4148;1" dur="15.44s" repeatCount="indefinite"/><rect class="cur" x="159.0" y="228.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.9297;0.9307;1" dur="6.41s" fill="freeze"/><rect class="cur" x="159.0" y="228.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
 <g clip-path="url(#c7)">
 <text x="48" y="267.0" font-size="15.0" fill="#9aa5ce" xml:space="preserve">foiatlas   context-graph   visual-activity-agent   order-supervisor</text>
 </g>
-<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4459;0.4469;0.9709;1" dur="15.44s" repeatCount="indefinite"/><text x="26" y="294.0" font-size="15.0" fill="#7aa2f7" font-weight="700">❯</text><rect class="cur" x="48" y="282.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
+<g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.9999;1" dur="6.89s" fill="freeze"/><text x="26" y="294.0" font-size="15.0" fill="#7aa2f7" font-weight="700">❯</text><rect class="cur" x="48" y="282.0" width="8.5" height="16.0" fill="#9ece6a"/></g>
 <rect x="1" y="334" width="858" height="3" rx="1.5" fill="url(#edge)" opacity=".85"/>
 </svg>
