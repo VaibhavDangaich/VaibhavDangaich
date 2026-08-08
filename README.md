@@ -2,32 +2,54 @@
 
 <img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/hero.svg" width="100%" alt="Vaibhav Dangaich — AI agents · knowledge graphs · full-stack" />
 
-<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b0d17?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a> <a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm" /></a> <a href="https://instagram.com/vaibhav_dangaich_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" /></a>
+<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a> <a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a> <a href="https://arxiv.org/abs/2607.28662"><img src="https://img.shields.io/badge/arXiv-2607.28662-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv preprint 2607.28662" /></a> <a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="mnex on npm" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0b0d17?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 
-<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=7aa2f7&label=profile+views" alt="profile views" /> <img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=0b0d17&label=followers" alt="followers" /> <img src="https://img.shields.io/badge/open%20to-internships%20%26%20collabs-9ece6a?style=flat-square&labelColor=0b0d17" alt="open to internships and collaborations" />
+<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=7aa2f7&label=profile+views" alt="profile views" /> <img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=bb9af7&labelColor=0b0d17&label=followers" alt="followers" /> <img src="https://img.shields.io/badge/open%20to-internships%20%26%20new%20grad%20roles-9ece6a?style=flat-square&labelColor=0b0d17" alt="open to internships and new grad roles" />
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/terminal.svg" width="90%" alt="whoami — Vaibhav Dangaich, B.Tech AI &amp; ML @ BIT Mesra; focus: agents that finish the job, graphs that remember, tools devs keep" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/signal.svg" width="100%" alt="CGPA 8.4 at BIT Mesra · 400+ DSA problems solved · Top 5 of 200+ teams at IEEE CTF · arXiv preprint published · mnex v1.5.1 live on npm" />
+
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/terminal.svg" width="90%" alt="whoami — Vaibhav Dangaich, B.Tech AI &amp; ML @ BIT Mesra '27, CGPA 8.4. Focus: agents that finish the job, graphs that remember, tools devs keep. mnex v1.5.1: 5-tier memory, planner to executor to critic, local-first. arXiv 2607.28662. Shipped: foiatlas, mnex, context-graph, visual-activity-agent, order-supervisor." />
 
 </div>
 
 <br/>
 
 - 🧠 I like the problems that sit **between an LLM and a real system** — memory, state, audit trails, the unglamorous parts that make an agent trustworthy.
-- 🕸️ Most of my recent work turns messy things into **graphs you can query**: agent sessions, FOIA documents, order lifecycles.
+- 🕸️ Most of my recent work turns messy things into **graphs you can query**: agent sessions, FOIA documents, defence intelligence archives, order lifecycles.
 - 🛠️ I ship end-to-end — extension, backend, worker, graph DB, UI — instead of stopping at the demo.
 - ⚡ Coding isn't just logic to me; it's creativity with a purpose.
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-builds.svg" width="100%" alt="01 — Featured builds" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-exp.svg" width="100%" alt="01 — Experience" />
+
+<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/timeline.svg" width="100%" alt="123 of AI, Software Development Engineer Intern, May 2026 to Jul 2026 — cohort learning platform on Next.js and Node/TypeScript over Azure; owned monetization with Razorpay, idempotent entitlements and a ledger-based credits system; built a recommendation engine on vector embeddings and semantic search with Azure OpenAI. Konect U, Artificial Intelligence Intern, Feb 2026 to May 2026 — secure real-time ingestion with Apache NiFi and Kafka routing 4 document formats for a defence-oriented government intelligence project; LangChain LLM workflows and Neo4j knowledge graphs lifted entity-search recall from 70% to 95% with zero false merges. Konect U, Full Stack Intern, Oct 2025 to Dec 2025 — full-stack delivery in an agile team. BIT Mesra, B.Tech in Artificial Intelligence and Machine Learning, Sep 2023 to Sep 2027, CGPA 8.4." /></a>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-research.svg" width="100%" alt="02 — Research" />
+
+<a href="https://arxiv.org/abs/2607.28662"><img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/publication.svg" width="100%" alt="Preprint arXiv:2607.28662, cs.AI, July 2026 — An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents. Vaibhav Dangaich, Kevin Lewis, Kundeshwar Pundalik. Recall 70% to 95%, zero false merges, 94% catalog overhead cut, self-hosted Qwen3.5-9B, Kafka document stream." /></a>
+
+<div align="center">
+
+**[An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents](https://arxiv.org/abs/2607.28662)** — ontology-guided two-pass extraction with a self-hosted Qwen3.5-9B over a Kafka document stream. Live ontology-slice retrieval cut catalog overhead ~94%, and a six-algorithm deduplication + embedding-resolution pipeline raised search recall from 70% to 95% with zero false merges.
+
+</div>
+
+<br/>
+
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-builds.svg" width="100%" alt="03 — Featured builds" />
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-mnex.svg" width="100%" alt="mnex — Node, LangGraph, published on npm" />](https://github.com/VaibhavDangaich/MNEX)
+[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-mnex.svg" width="100%" alt="mnex — 5-tier memory, LangGraph, npm v1.5.1" />](https://github.com/VaibhavDangaich/MNEX)
 
-A cognitive-architecture-inspired **AI coding agent that lives in your terminal** — persistent multi-layer memory, a causal work graph, local-first routing and a plugin SDK.
+A production-grade **AI coding agent that lives in your terminal**, driven by a stateful LangGraph **planner → executor → critic** loop for self-correcting multi-step reasoning over your codebase.
+
+A 5-tier memory system on SQLite WAL gives sub-50ms recall; a local-first router (Ollama → cloud) cuts inference cost ~40%. Ships a DPO-exportable eval harness and a plugin SDK — zero external infra.
 
 ```console
 $ npm i -g @vaibhav_dangaich/mnex
@@ -36,11 +58,11 @@ $ npm i -g @vaibhav_dangaich/mnex
 </td>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-foiatlas.svg" width="100%" alt="FOIAtlas — Next.js, Kùzu, Gemini" />](https://github.com/VaibhavDangaich/foiatlas)
+[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-foiatlas.svg" width="100%" alt="FOIAtlas — Kùzu, Gemini, GraphRAG" />](https://github.com/VaibhavDangaich/foiatlas)
 
-Turns a pile of released **FOIA/RTI documents into a navigable graph** of who knew what, when.
+An investigative **GraphRAG** tool that turns released FOIA/RTI records into a queryable knowledge graph through a six-stage pipeline: parse → extract → resolve → embed → write.
 
-Its signature idea: every **redaction is a first-class node** — carrying its exemption code and context, so a blacked-out span becomes a queryable investigative lead instead of an absence.
+Its signature idea: every **redaction is a first-class node** carrying its legal exemption code — concealed spans become queryable leads instead of absences. Plus semantic-search chat, a LangGraph ReAct agent for schema-validated graph edits, a REST API and a Cytoscape explorer.
 
 </td>
 </tr>
@@ -94,13 +116,13 @@ A versioned **policy-as-code** engine rules and cites the exact rule; a self-ver
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stack.svg" width="100%" alt="02 — Tech stack" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stack.svg" width="100%" alt="04 — Tech stack" />
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/stack.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, C++, Go, Bash. AI and agents: LangGraph, LangChain, Gemini, Temporal, Ollama. Web: Next.js, React, React Native, Node.js, FastAPI, Tailwind, Redux, Three.js. Data: Neo4j, Kùzu, PostgreSQL, Supabase, MongoDB, Prisma. Ship it: Git, GitHub Actions, Vercel, Render, npm." />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/stack.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, C++, C, SQL. AI and agents: LangGraph, LangChain, Gemini, Azure OpenAI, Ollama, Temporal. Web: Next.js, React, Node.js, Express, FastAPI, Tailwind, Three.js. Data and graphs: Neo4j, Kùzu, PostgreSQL, MongoDB, SQLite, Supabase, vector DBs. Infra and tools: Docker, Azure, Kafka, NiFi, Git, GitHub Actions, Vercel, Postman, Jest." />
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stats.svg" width="100%" alt="03 — By the numbers" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stats.svg" width="100%" alt="05 — By the numbers" />
 
 <div align="center">
 
@@ -114,7 +136,7 @@ A versioned **policy-as-code** engine rules and cites the exact rule; a self-ver
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-snake.svg" width="100%" alt="04 — The snake eats my contribution graph" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-snake.svg" width="100%" alt="06 — The snake eats my contribution graph" />
 
 <div align="center">
 <picture>

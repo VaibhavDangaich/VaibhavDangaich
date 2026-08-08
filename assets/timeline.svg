@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 512" width="1200" height="512" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="experience timeline">
+<defs>
+<linearGradient id="tlbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#12141f"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
+<linearGradient id="spine" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7aa2f7" stop-opacity=".95"/><stop offset="55%" stop-color="#bb9af7" stop-opacity=".7"/><stop offset="100%" stop-color="#2ac3de" stop-opacity=".15"/></linearGradient>
+<filter id="tg" x="-90%" y="-90%" width="280%" height="280%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="tlc"><rect width="1200" height="512" rx="16"/></clipPath>
+</defs>
+<style>@keyframes np{0%,100%{opacity:.45}50%{opacity:1}}@keyframes fall{0%{transform:translateY(-14px);opacity:0}100%{transform:translateY(340px);opacity:0}12%{opacity:1}88%{opacity:1}}.np{animation:np 3s ease-in-out infinite}.fall{animation:fall 6s linear infinite}</style>
+<g clip-path="url(#tlc)">
+<rect width="1200" height="512" fill="url(#tlbg)"/>
+<rect x="61" y="24" width="2" height="468" fill="url(#spine)"/>
+<circle class="fall" cx="62" cy="30" r="2.6" fill="#2ac3de" filter="url(#tg)"/>
+<circle class="np" cx="62" cy="44" r="6.5" fill="#7aa2f7" filter="url(#tg)"/>
+<circle cx="62" cy="44" r="11" fill="none" stroke="#7aa2f7" stroke-opacity=".35" stroke-width="1.5"/>
+<text x="96" y="50" font-size="19" font-weight="800" fill="#e6ecff">123 of AI</text>
+<text x="200" y="50" font-size="13.5" font-weight="600" letter-spacing=".4" fill="#7aa2f7">Software Development Engineer Intern</text>
+<rect x="1027" y="33" width="147" height="24" rx="12" fill="#7aa2f7" fill-opacity=".12" stroke="#7aa2f7" stroke-opacity=".32"/>
+<text x="1100" y="49" text-anchor="middle" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#7aa2f7">May 2026 – Jul 2026</text>
+<text x="96" y="74" font-size="13.5" fill="#8b93b8">Cohort learning platform on Next.js + Node/TypeScript over Azure — enrollment, scheduling, streaks, XP leaderboards, certificates.</text>
+<text x="96" y="96" font-size="13.5" fill="#8b93b8">Owned monetization: Razorpay orders, subscriptions and webhooks, idempotent entitlements, a ledger-based credits system across 3 tiers.</text>
+<text x="96" y="118" font-size="13.5" fill="#8b93b8">Built a recommendation engine on vector embeddings and semantic search (Azure OpenAI) targeting each learner&#x27;s weak concepts.</text>
+<circle class="np" cx="62" cy="188" r="6.5" fill="#bb9af7" filter="url(#tg)"/>
+<circle cx="62" cy="188" r="11" fill="none" stroke="#bb9af7" stroke-opacity=".35" stroke-width="1.5"/>
+<text x="96" y="194" font-size="19" font-weight="800" fill="#e6ecff">Konect U</text>
+<text x="193" y="194" font-size="13.5" font-weight="600" letter-spacing=".4" fill="#bb9af7">Artificial Intelligence Intern</text>
+<rect x="1024" y="177" width="150" height="24" rx="12" fill="#bb9af7" fill-opacity=".12" stroke="#bb9af7" stroke-opacity=".32"/>
+<text x="1099" y="193" text-anchor="middle" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#bb9af7">Feb 2026 – May 2026</text>
+<text x="96" y="218" font-size="13.5" fill="#8b93b8">Secure real-time ingestion with Apache NiFi + Kafka routing 4 document formats for a defence-oriented government intelligence project.</text>
+<text x="96" y="240" font-size="13.5" fill="#8b93b8">LangChain LLM workflows and Neo4j knowledge graphs lifted entity-search recall from 70% to 95% with zero false merges.</text>
+<circle class="np" cx="62" cy="310" r="6.5" fill="#2ac3de" filter="url(#tg)"/>
+<circle cx="62" cy="310" r="11" fill="none" stroke="#2ac3de" stroke-opacity=".35" stroke-width="1.5"/>
+<text x="96" y="316" font-size="19" font-weight="800" fill="#e6ecff">Konect U</text>
+<text x="193" y="316" font-size="13.5" font-weight="600" letter-spacing=".4" fill="#2ac3de">Full Stack Intern</text>
+<rect x="1027" y="299" width="147" height="24" rx="12" fill="#2ac3de" fill-opacity=".12" stroke="#2ac3de" stroke-opacity=".32"/>
+<text x="1100" y="315" text-anchor="middle" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#2ac3de">Oct 2025 – Dec 2025</text>
+<text x="96" y="340" font-size="13.5" fill="#8b93b8">Full-stack delivery in an agile team — client requirements into technical specs, third-party API integration.</text>
+<circle class="np" cx="62" cy="410" r="6.5" fill="#9ece6a" filter="url(#tg)"/>
+<circle cx="62" cy="410" r="11" fill="none" stroke="#9ece6a" stroke-opacity=".35" stroke-width="1.5"/>
+<text x="96" y="416" font-size="19" font-weight="800" fill="#e6ecff">BIT Mesra</text>
+<text x="204" y="416" font-size="13.5" font-weight="600" letter-spacing=".4" fill="#9ece6a">B.Tech, Artificial Intelligence &amp; Machine Learning</text>
+<rect x="1024" y="399" width="150" height="24" rx="12" fill="#9ece6a" fill-opacity=".12" stroke="#9ece6a" stroke-opacity=".32"/>
+<text x="1099" y="415" text-anchor="middle" font-size="12" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#9ece6a">Sep 2023 – Sep 2027</text>
+<text x="96" y="440" font-size="13.5" fill="#8b93b8">CGPA 8.4 · final year · Ranchi, India</text>
+<rect x=".75" y=".75" width="1198.5" height="510.5" rx="16" fill="none" stroke="#2a2f4a" stroke-width="1.5"/>
+</g></svg>

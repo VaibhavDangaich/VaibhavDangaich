@@ -263,14 +263,227 @@ def footer(fname):
     (OUT / fname).write_text("\n".join(o))
 
 
-# ─────────────────────────────────────────────────────────────────── build
-section_header("01", "FEATURED BUILDS", "things I actually shipped", BLUE, "s-builds.svg")
-section_header("02", "TECH STACK", "what I reach for", PURPLE, "s-stack.svg")
-section_header("03", "BY THE NUMBERS", "commits, streaks, languages", CYAN, "s-stats.svg")
-section_header("04", "THE SNAKE", "it eats my contribution graph", GREEN, "s-snake.svg")
+# ───────────────────────────────────────────────────────── experience timeline
+def timeline(entries, fname):
+    """Vertical timeline: (org, role, dates, [desc lines], accent)."""
+    W, PADL, SPINE = 1200, 26, 62
+    TOP = 30
+    heights = [78 + 22 * len(e[3]) for e in entries]
+    H = TOP + sum(heights) + 16
+    o = [head(W, H, "experience timeline")]
+    o.append('<defs>')
+    o.append(f'<linearGradient id="tlbg" x1="0" y1="0" x2="1" y2="1">'
+             f'<stop offset="0%" stop-color="{BG1}"/><stop offset="100%" stop-color="{BG0}"/>'
+             f'</linearGradient>')
+    o.append(f'<linearGradient id="spine" x1="0" y1="0" x2="0" y2="1">'
+             f'<stop offset="0%" stop-color="{BLUE}" stop-opacity=".95"/>'
+             f'<stop offset="55%" stop-color="{PURPLE}" stop-opacity=".7"/>'
+             f'<stop offset="100%" stop-color="{CYAN}" stop-opacity=".15"/></linearGradient>')
+    o.append('<filter id="tg" x="-90%" y="-90%" width="280%" height="280%">'
+             '<feGaussianBlur stdDeviation="3" result="b"/>'
+             '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+    o.append(f'<clipPath id="tlc"><rect width="{W}" height="{H}" rx="16"/></clipPath>')
+    o.append('</defs>')
+    o.append('<style>@keyframes np{0%,100%{opacity:.45}50%{opacity:1}}'
+             '@keyframes fall{0%{transform:translateY(-14px);opacity:0}'
+             '100%{transform:translateY(340px);opacity:0}'
+             '12%{opacity:1}88%{opacity:1}}'
+             '.np{animation:np 3s ease-in-out infinite}'
+             '.fall{animation:fall 6s linear infinite}</style>')
+    o.append('<g clip-path="url(#tlc)">')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#tlbg)"/>')
+    o.append(f'<rect x="{SPINE-1}" y="{TOP-6}" width="2" height="{H-TOP-14}" fill="url(#spine)"/>')
+    o.append(f'<circle class="fall" cx="{SPINE}" cy="{TOP}" r="2.6" fill="{CYAN}" '
+             f'filter="url(#tg)"/>')
 
-project_card("mnex", ["Node", "LangGraph", "on npm"], BLUE, "card-mnex.svg")
-project_card("FOIAtlas", ["Next.js", "Kùzu", "Gemini"], PURPLE, "card-foiatlas.svg")
+    y = TOP
+    for org, role, dates, lines, accent in entries:
+        o.append(f'<circle class="np" cx="{SPINE}" cy="{y+14}" r="6.5" fill="{accent}" '
+                 f'filter="url(#tg)"/>')
+        o.append(f'<circle cx="{SPINE}" cy="{y+14}" r="11" fill="none" stroke="{accent}" '
+                 f'stroke-opacity=".35" stroke-width="1.5"/>')
+        o.append(f'<text x="{SPINE+34}" y="{y+20}" font-size="19" font-weight="800" '
+                 f'fill="{TXT}">{escape(org)}</text>')
+        rx = SPINE + 34 + sans_w(org, 19) + 16
+        o.append(f'<text x="{rx:.0f}" y="{y+20}" font-size="13.5" font-weight="600" '
+                 f'letter-spacing=".4" fill="{accent}">{escape(role)}</text>')
+        dw = sans_w(dates, 12) + 26
+        o.append(f'<rect x="{W-PADL-dw:.0f}" y="{y+3}" width="{dw:.0f}" height="24" rx="12" '
+                 f'fill="{accent}" fill-opacity=".12" stroke="{accent}" stroke-opacity=".32"/>')
+        o.append(f'<text x="{W-PADL-dw/2:.0f}" y="{y+19}" text-anchor="middle" font-size="12" '
+                 f'font-family="{MONO}" fill="{accent}">{escape(dates)}</text>')
+        ly = y + 44
+        for ln in lines:
+            o.append(f'<text x="{SPINE+34}" y="{ly}" font-size="13.5" fill="{DIM}">'
+                     f'{escape(ln)}</text>')
+            ly += 22
+        y += 78 + 22 * len(lines)
+
+    o.append(f'<rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="16" fill="none" '
+             f'stroke="{LINE}" stroke-width="1.5"/>')
+    o.append('</g></svg>')
+    (OUT / fname).write_text("\n".join(o))
+
+
+# ────────────────────────────────────────────────────────── publication card
+def publication(arxiv_id, title_lines, authors, venue, results, fname):
+    W = 1200
+    H = 96 + 30 * len(title_lines) + 74
+    o = [head(W, H, f"preprint {arxiv_id}: {' '.join(title_lines)}")]
+    o.append('<defs>')
+    o.append(f'<linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1">'
+             f'<stop offset="0%" stop-color="#15182a"/><stop offset="100%" stop-color="{BG0}"/>'
+             f'</linearGradient>')
+    o.append(sweep("pbar", PURPLE, "#ffffff", CYAN, 7))
+    o.append(f'<radialGradient id="pglow" cx="90%" cy="10%" r="55%">'
+             f'<stop offset="0%" stop-color="{PURPLE}" stop-opacity=".26"/>'
+             f'<stop offset="100%" stop-color="{PURPLE}" stop-opacity="0"/></radialGradient>')
+    o.append('<filter id="pg" x="-80%" y="-80%" width="260%" height="260%">'
+             '<feGaussianBlur stdDeviation="2.4" result="b"/>'
+             '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>')
+    o.append(f'<clipPath id="pc"><rect width="{W}" height="{H}" rx="16"/></clipPath>')
+    o.append('</defs>')
+    o.append('<style>@keyframes pf{0%,100%{opacity:.3}50%{opacity:1}}'
+             '.pf{animation:pf 3.2s ease-in-out infinite}</style>')
+    o.append('<g clip-path="url(#pc)">')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#pbg)"/>')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#pglow)"/>')
+    o.append(f'<rect x="0" y="0" width="5" height="{H}" fill="url(#pbar)"/>')
+
+    # doc + graph motif, top right
+    o.append(f'<g opacity=".5" transform="translate(1020,26)">')
+    o.append(f'<rect x="0" y="0" width="52" height="66" rx="5" fill="none" stroke="{PURPLE}" '
+             f'stroke-width="1.4" opacity=".7"/>')
+    for i, ly in enumerate((14, 24, 34, 44, 54)):
+        wd = (34, 30, 36, 22, 28)[i]
+        col = "#f7768e" if i in (1, 3) else PURPLE
+        o.append(f'<rect x="9" y="{ly}" width="{wd}" height="4" rx="2" fill="{col}" '
+                 f'opacity="{0.75 if i in (1,3) else 0.4}"/>')
+    gp = [(84, 12), (120, 30), (86, 52), (128, 62), (150, 24)]
+    for a, b in ((0, 1), (1, 2), (1, 3), (1, 4), (2, 3)):
+        o.append(f'<line x1="{gp[a][0]}" y1="{gp[a][1]}" x2="{gp[b][0]}" y2="{gp[b][1]}" '
+                 f'stroke="{CYAN}" stroke-width="1" opacity=".45"/>')
+    for i, (px, py) in enumerate(gp):
+        o.append(f'<circle class="pf" cx="{px}" cy="{py}" r="3.4" fill="{CYAN}" '
+                 f'filter="url(#pg)" style="animation-delay:{i*0.4:.1f}s"/>')
+    o.append('</g>')
+
+    o.append(f'<rect x="26" y="24" width="86" height="24" rx="12" fill="{PURPLE}" '
+             f'fill-opacity=".16" stroke="{PURPLE}" stroke-opacity=".45"/>')
+    o.append(f'<text x="69" y="40" text-anchor="middle" font-size="11.5" font-weight="700" '
+             f'letter-spacing="1.6" fill="{PURPLE}">PREPRINT</text>')
+    o.append(f'<text x="126" y="41" font-size="13" font-family="{MONO}" fill="{CYAN}">'
+             f'{escape(arxiv_id)}</text>')
+    o.append(f'<text x="{126 + len(arxiv_id)*7.8 + 18:.0f}" y="41" font-size="12.5" '
+             f'fill="{DIM}">{escape(venue)}</text>')
+
+    ty = 78
+    for ln in title_lines:
+        o.append(f'<text x="26" y="{ty}" font-size="21" font-weight="800" fill="{TXT}">'
+                 f'{escape(ln)}</text>')
+        ty += 30
+    o.append(f'<text x="26" y="{ty+2}" font-size="13" fill="{DIM}">{escape(authors)}</text>')
+
+    cx, cy = 26.0, ty + 20
+    for i, r in enumerate(results):
+        fs = 12.5
+        w = sans_w(r, fs) + 30
+        col = (CYAN, GREEN, BLUE, PURPLE, AMBER)[i % 5]
+        o.append(f'<g><rect x="{cx:.1f}" y="{cy}" width="{w:.1f}" height="27" rx="13.5" '
+                 f'fill="{col}" fill-opacity=".12" stroke="{col}" stroke-opacity=".38"/>'
+                 f'<circle class="pf" cx="{cx+13:.1f}" cy="{cy+13.5}" r="3" fill="{col}" '
+                 f'style="animation-delay:{i*0.45:.2f}s"/>'
+                 f'<text x="{cx+24:.1f}" y="{cy+18}" font-size="{fs}" fill="{TXT}" '
+                 f'opacity=".93">{escape(r)}</text></g>')
+        cx += w + 9
+
+    o.append(f'<rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="16" fill="none" '
+             f'stroke="{LINE}" stroke-width="1.5"/>')
+    o.append('</g></svg>')
+    (OUT / fname).write_text("\n".join(o))
+
+
+# ──────────────────────────────────────────────────────────── signal tiles
+def signal_strip(tiles, fname):
+    W, H, PAD, GAP = 1200, 112, 26, 12
+    tw = (W - 2 * PAD - GAP * (len(tiles) - 1)) / len(tiles)
+    o = [head(W, H, "; ".join(f"{v} {l}" for v, l, _ in tiles))]
+    o.append('<defs>')
+    o.append(f'<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1">'
+             f'<stop offset="0%" stop-color="{BG1}"/><stop offset="100%" stop-color="{BG0}"/>'
+             f'</linearGradient>')
+    for i, (_, _, col) in enumerate(tiles):
+        o.append(f'<linearGradient id="tv{i}" x1="0" y1="0" x2="0" y2="1">'
+                 f'<stop offset="0%" stop-color="#ffffff"/>'
+                 f'<stop offset="100%" stop-color="{col}"/></linearGradient>')
+    o.append(f'<clipPath id="gc"><rect width="{W}" height="{H}" rx="16"/></clipPath>')
+    o.append('</defs>')
+    o.append('<style>@keyframes tp{0%,100%{opacity:.25}50%{opacity:.75}}'
+             '.tp{animation:tp 3.6s ease-in-out infinite}</style>')
+    o.append('<g clip-path="url(#gc)">')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#gbg)"/>')
+    for i, (val, label, col) in enumerate(tiles):
+        x = PAD + i * (tw + GAP)
+        o.append(f'<rect class="tp" x="{x:.1f}" y="18" width="{tw:.1f}" height="76" rx="12" '
+                 f'fill="{col}" fill-opacity=".07" style="animation-delay:{i*0.5:.1f}s"/>')
+        o.append(f'<rect x="{x:.1f}" y="18" width="{tw:.1f}" height="76" rx="12" fill="none" '
+                 f'stroke="{col}" stroke-opacity=".28" stroke-width="1"/>')
+        o.append(f'<text x="{x+tw/2:.1f}" y="58" text-anchor="middle" font-size="27" '
+                 f'font-weight="800" fill="url(#tv{i})">{escape(val)}</text>')
+        o.append(f'<text x="{x+tw/2:.1f}" y="80" text-anchor="middle" font-size="11.5" '
+                 f'letter-spacing=".7" fill="{DIM}">{escape(label)}</text>')
+    o.append(f'<rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="16" fill="none" '
+             f'stroke="{LINE}" stroke-width="1.5"/>')
+    o.append('</g></svg>')
+    (OUT / fname).write_text("\n".join(o))
+
+
+# ─────────────────────────────────────────────────────────────────── build
+section_header("01", "EXPERIENCE", "where I've shipped", BLUE, "s-exp.svg")
+section_header("02", "RESEARCH", "preprint on arXiv", PURPLE, "s-research.svg")
+section_header("03", "FEATURED BUILDS", "things I actually shipped", CYAN, "s-builds.svg")
+section_header("04", "TECH STACK", "what I reach for", GREEN, "s-stack.svg")
+section_header("05", "BY THE NUMBERS", "commits, streaks, languages", AMBER, "s-stats.svg")
+section_header("06", "THE SNAKE", "it eats my contribution graph", "#f7768e", "s-snake.svg")
+
+signal_strip([
+    ("8.4", "CGPA · BIT MESRA", BLUE),
+    ("400+", "DSA PROBLEMS SOLVED", PURPLE),
+    ("TOP 5", "IEEE CTF · 200+ TEAMS", CYAN),
+    ("arXiv", "PREPRINT PUBLISHED", GREEN),
+    ("v1.5.1", "MNEX LIVE ON NPM", AMBER),
+], "signal.svg")
+
+timeline([
+    ("123 of AI", "Software Development Engineer Intern", "May 2026 – Jul 2026", [
+        "Cohort learning platform on Next.js + Node/TypeScript over Azure — enrollment, scheduling, streaks, XP leaderboards, certificates.",
+        "Owned monetization: Razorpay orders, subscriptions and webhooks, idempotent entitlements, a ledger-based credits system across 3 tiers.",
+        "Built a recommendation engine on vector embeddings and semantic search (Azure OpenAI) targeting each learner's weak concepts.",
+    ], BLUE),
+    ("Konect U", "Artificial Intelligence Intern", "Feb 2026 – May 2026", [
+        "Secure real-time ingestion with Apache NiFi + Kafka routing 4 document formats for a defence-oriented government intelligence project.",
+        "LangChain LLM workflows and Neo4j knowledge graphs lifted entity-search recall from 70% to 95% with zero false merges.",
+    ], PURPLE),
+    ("Konect U", "Full Stack Intern", "Oct 2025 – Dec 2025", [
+        "Full-stack delivery in an agile team — client requirements into technical specs, third-party API integration.",
+    ], CYAN),
+    ("BIT Mesra", "B.Tech, Artificial Intelligence & Machine Learning", "Sep 2023 – Sep 2027", [
+        "CGPA 8.4 · final year · Ranchi, India",
+    ], GREEN),
+], "timeline.svg")
+
+publication(
+    "arXiv:2607.28662",
+    ["An Ontology-Guided, Deduplication-Aware Extraction Layer for",
+     "Knowledge Graph Construction from Heterogeneous Documents"],
+    "Vaibhav Dangaich, Kevin Lewis, Kundeshwar Pundalik",
+    "cs.AI · July 2026",
+    ["recall 70% → 95%", "zero false merges", "−94% catalog overhead",
+     "Qwen3.5-9B, self-hosted", "Kafka document stream"],
+    "publication.svg")
+
+project_card("mnex", ["5-tier memory", "LangGraph", "npm v1.5.1"], BLUE, "card-mnex.svg")
+project_card("FOIAtlas", ["Kùzu", "Gemini", "GraphRAG"], PURPLE, "card-foiatlas.svg")
 project_card("Context Graph", ["Python", "Neo4j", "FastAPI"], CYAN, "card-contextgraph.svg")
 project_card("Visual Activity Agent", ["Chrome MV3", "Supabase", "Gemini Vision"], GREEN,
              "card-vaa.svg")
@@ -279,12 +492,15 @@ project_card("Servicing Agent", ["Policy-as-Code", "audit chain", "Python"], "#f
              "card-servicing.svg")
 
 stack_matrix([
-    ("Languages", BLUE, ["Python", "TypeScript", "JavaScript", "C++", "Go", "Bash"]),
-    ("AI & agents", PURPLE, ["LangGraph", "LangChain", "Gemini", "Temporal", "Ollama"]),
-    ("Web", CYAN, ["Next.js", "React", "React Native", "Node.js", "FastAPI", "Tailwind",
-                   "Redux", "Three.js"]),
-    ("Data", GREEN, ["Neo4j", "Kùzu", "PostgreSQL", "Supabase", "MongoDB", "Prisma"]),
-    ("Ship it", AMBER, ["Git", "GitHub Actions", "Vercel", "Render", "npm"]),
+    ("Languages", BLUE, ["Python", "TypeScript", "JavaScript", "C++", "C", "SQL"]),
+    ("AI & agents", PURPLE, ["LangGraph", "LangChain", "Gemini", "Azure OpenAI", "Ollama",
+                             "Temporal"]),
+    ("Web", CYAN, ["Next.js", "React", "Node.js", "Express", "FastAPI", "Tailwind",
+                   "Three.js"]),
+    ("Data & graphs", GREEN, ["Neo4j", "Kùzu", "PostgreSQL", "MongoDB", "SQLite", "Supabase",
+                              "Vector DBs"]),
+    ("Infra & tools", AMBER, ["Docker", "Azure", "Kafka", "NiFi", "Git", "GitHub Actions",
+                              "Vercel", "Postman", "Jest"]),
 ], "stack.svg")
 
 footer("footer.svg")

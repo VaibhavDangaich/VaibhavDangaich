@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" width="1200" height="230" font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" role="img" aria-label="preprint arXiv:2607.28662: An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents">
+<defs>
+<linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#15182a"/><stop offset="100%" stop-color="#0b0d17"/></linearGradient>
+<linearGradient id="pbar" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#bb9af7"/><stop offset="50%" stop-color="#ffffff"/><stop offset="100%" stop-color="#2ac3de"/><animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="7s" repeatCount="indefinite"/></linearGradient>
+<radialGradient id="pglow" cx="90%" cy="10%" r="55%"><stop offset="0%" stop-color="#bb9af7" stop-opacity=".26"/><stop offset="100%" stop-color="#bb9af7" stop-opacity="0"/></radialGradient>
+<filter id="pg" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="pc"><rect width="1200" height="230" rx="16"/></clipPath>
+</defs>
+<style>@keyframes pf{0%,100%{opacity:.3}50%{opacity:1}}.pf{animation:pf 3.2s ease-in-out infinite}</style>
+<g clip-path="url(#pc)">
+<rect width="1200" height="230" fill="url(#pbg)"/>
+<rect width="1200" height="230" fill="url(#pglow)"/>
+<rect x="0" y="0" width="5" height="230" fill="url(#pbar)"/>
+<g opacity=".5" transform="translate(1020,26)">
+<rect x="0" y="0" width="52" height="66" rx="5" fill="none" stroke="#bb9af7" stroke-width="1.4" opacity=".7"/>
+<rect x="9" y="14" width="34" height="4" rx="2" fill="#bb9af7" opacity="0.4"/>
+<rect x="9" y="24" width="30" height="4" rx="2" fill="#f7768e" opacity="0.75"/>
+<rect x="9" y="34" width="36" height="4" rx="2" fill="#bb9af7" opacity="0.4"/>
+<rect x="9" y="44" width="22" height="4" rx="2" fill="#f7768e" opacity="0.75"/>
+<rect x="9" y="54" width="28" height="4" rx="2" fill="#bb9af7" opacity="0.4"/>
+<line x1="84" y1="12" x2="120" y2="30" stroke="#2ac3de" stroke-width="1" opacity=".45"/>
+<line x1="120" y1="30" x2="86" y2="52" stroke="#2ac3de" stroke-width="1" opacity=".45"/>
+<line x1="120" y1="30" x2="128" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".45"/>
+<line x1="120" y1="30" x2="150" y2="24" stroke="#2ac3de" stroke-width="1" opacity=".45"/>
+<line x1="86" y1="52" x2="128" y2="62" stroke="#2ac3de" stroke-width="1" opacity=".45"/>
+<circle class="pf" cx="84" cy="12" r="3.4" fill="#2ac3de" filter="url(#pg)" style="animation-delay:0.0s"/>
+<circle class="pf" cx="120" cy="30" r="3.4" fill="#2ac3de" filter="url(#pg)" style="animation-delay:0.4s"/>
+<circle class="pf" cx="86" cy="52" r="3.4" fill="#2ac3de" filter="url(#pg)" style="animation-delay:0.8s"/>
+<circle class="pf" cx="128" cy="62" r="3.4" fill="#2ac3de" filter="url(#pg)" style="animation-delay:1.2s"/>
+<circle class="pf" cx="150" cy="24" r="3.4" fill="#2ac3de" filter="url(#pg)" style="animation-delay:1.6s"/>
+</g>
+<rect x="26" y="24" width="86" height="24" rx="12" fill="#bb9af7" fill-opacity=".16" stroke="#bb9af7" stroke-opacity=".45"/>
+<text x="69" y="40" text-anchor="middle" font-size="11.5" font-weight="700" letter-spacing="1.6" fill="#bb9af7">PREPRINT</text>
+<text x="126" y="41" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" fill="#2ac3de">arXiv:2607.28662</text>
+<text x="269" y="41" font-size="12.5" fill="#8b93b8">cs.AI · July 2026</text>
+<text x="26" y="78" font-size="21" font-weight="800" fill="#e6ecff">An Ontology-Guided, Deduplication-Aware Extraction Layer for</text>
+<text x="26" y="108" font-size="21" font-weight="800" fill="#e6ecff">Knowledge Graph Construction from Heterogeneous Documents</text>
+<text x="26" y="140" font-size="13" fill="#8b93b8">Vaibhav Dangaich, Kevin Lewis, Kundeshwar Pundalik</text>
+<g><rect x="26.0" y="158" width="128.5" height="27" rx="13.5" fill="#2ac3de" fill-opacity=".12" stroke="#2ac3de" stroke-opacity=".38"/><circle class="pf" cx="39.0" cy="171.5" r="3" fill="#2ac3de" style="animation-delay:0.00s"/><text x="50.0" y="176" font-size="12.5" fill="#e6ecff" opacity=".93">recall 70% → 95%</text></g>
+<g><rect x="163.5" y="158" width="134.1" height="27" rx="13.5" fill="#9ece6a" fill-opacity=".12" stroke="#9ece6a" stroke-opacity=".38"/><circle class="pf" cx="176.5" cy="171.5" r="3" fill="#9ece6a" style="animation-delay:0.45s"/><text x="187.5" y="176" font-size="12.5" fill="#e6ecff" opacity=".93">zero false merges</text></g>
+<g><rect x="306.6" y="158" width="161.6" height="27" rx="13.5" fill="#7aa2f7" fill-opacity=".12" stroke="#7aa2f7" stroke-opacity=".38"/><circle class="pf" cx="319.6" cy="171.5" r="3" fill="#7aa2f7" style="animation-delay:0.90s"/><text x="330.6" y="176" font-size="12.5" fill="#e6ecff" opacity=".93">−94% catalog overhead</text></g>
+<g><rect x="477.2" y="158" width="169.4" height="27" rx="13.5" fill="#bb9af7" fill-opacity=".12" stroke="#bb9af7" stroke-opacity=".38"/><circle class="pf" cx="490.2" cy="171.5" r="3" fill="#bb9af7" style="animation-delay:1.35s"/><text x="501.2" y="176" font-size="12.5" fill="#e6ecff" opacity=".93">Qwen3.5-9B, self-hosted</text></g>
+<g><rect x="655.6" y="158" width="163.6" height="27" rx="13.5" fill="#e0af68" fill-opacity=".12" stroke="#e0af68" stroke-opacity=".38"/><circle class="pf" cx="668.6" cy="171.5" r="3" fill="#e0af68" style="animation-delay:1.80s"/><text x="679.6" y="176" font-size="12.5" fill="#e6ecff" opacity=".93">Kafka document stream</text></g>
+<rect x=".75" y=".75" width="1198.5" height="228.5" rx="16" fill="none" stroke="#2a2f4a" stroke-width="1.5"/>
+</g></svg>

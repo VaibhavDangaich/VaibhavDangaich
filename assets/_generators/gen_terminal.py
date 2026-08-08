@@ -12,13 +12,15 @@ W = 860
 # (kind, text) — kind: cmd | out | ok
 LINES = [
     ("cmd", "whoami"),
-    ("out", "vaibhav dangaich — b.tech, ai & ml @ bit mesra"),
+    ("out", "vaibhav dangaich — b.tech ai & ml @ bit mesra '27 · cgpa 8.4"),
     ("cmd", "cat ~/.focus"),
     ("out", "agents that finish the job · graphs that remember · tools devs keep"),
     ("cmd", "mnex --status"),
-    ("ok",  "memory 4-layer   work-graph causal   routing local-first   [ready]"),
+    ("ok",  "5-tier memory   planner -> executor -> critic   local-first   [v1.5.1]"),
+    ("cmd", "arxiv --mine"),
+    ("out", "2607.28662 · ontology-guided extraction for knowledge-graph construction"),
     ("cmd", "ls ~/shipped"),
-    ("out", "foiatlas   context-graph   visual-activity-agent   order-supervisor"),
+    ("out", "foiatlas  mnex  context-graph  visual-activity-agent  order-supervisor"),
 ]
 
 H = int(TOP + LH * len(LINES) + 44)
