@@ -39,38 +39,51 @@ def sweep(gid, c1, c2, c3, dur=8):
 
 # ─────────────────────────────────────────────────────────── section headers
 def section_header(num, title, sub, accent, fname):
-    W, H = 1200, 74
+    """Numbered section header. Carries its own dark panel — every asset has to
+    stay legible on GitHub light mode, where the page background is white."""
+    W, H = 1200, 78
+    PAD = 26
     o = [head(W, H, f"{num} — {title}")]
     o.append('<defs>')
     o.append(sweep("hl", accent, "#ffffff", accent, 7))
+    o.append(f'<linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1">'
+             f'<stop offset="0%" stop-color="{BG1}"/><stop offset="100%" stop-color="{BG0}"/>'
+             f'</linearGradient>')
     o.append(f'<linearGradient id="hr" x1="0" y1="0" x2="1" y2="0">'
              f'<stop offset="0%" stop-color="{accent}" stop-opacity=".85"/>'
              f'<stop offset="100%" stop-color="{accent}" stop-opacity="0"/></linearGradient>')
-    o.append('<filter id="g" x="-70%" y="-70%" width="240%" height="240%">'
-             '<feGaussianBlur stdDeviation="4"/><feComposite in="SourceGraphic"/></filter>')
+    o.append(f'<radialGradient id="hglow" cx="4%" cy="50%" r="42%">'
+             f'<stop offset="0%" stop-color="{accent}" stop-opacity=".22"/>'
+             f'<stop offset="100%" stop-color="{accent}" stop-opacity="0"/></radialGradient>')
+    o.append(f'<clipPath id="hc"><rect width="{W}" height="{H}" rx="14"/></clipPath>')
     o.append('</defs>')
     o.append('<style>@keyframes bp{0%,100%{opacity:.35}50%{opacity:1}}'
              '.bp{animation:bp 2.6s ease-in-out infinite}</style>')
 
-    # index chip
-    o.append(f'<rect x="0" y="16" width="4" height="42" rx="2" fill="url(#hl)"/>')
-    o.append(f'<text x="20" y="34" font-size="12" font-weight="700" letter-spacing="2.5" '
-             f'fill="{accent}" opacity=".75">{num}</text>')
-    o.append(f'<text x="20" y="60" font-size="27" font-weight="800" letter-spacing="1.2" '
+    o.append('<g clip-path="url(#hc)">')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#hbg)"/>')
+    o.append(f'<rect width="{W}" height="{H}" fill="url(#hglow)"/>')
+
+    o.append(f'<rect x="{PAD}" y="19" width="4" height="42" rx="2" fill="url(#hl)"/>')
+    o.append(f'<text x="{PAD+20}" y="36" font-size="12" font-weight="700" letter-spacing="2.5" '
+             f'fill="{accent}" opacity=".8">{num}</text>')
+    o.append(f'<text x="{PAD+20}" y="62" font-size="27" font-weight="800" letter-spacing="1.2" '
              f'fill="{TXT}">{escape(title)}</text>')
 
-    tw = sans_w(title, 27) + 1.2 * len(title)
-    x = 20 + tw + 22
-    o.append(f'<text x="{x:.0f}" y="59" font-size="13" letter-spacing="1.6" fill="{DIM}" '
-             f'opacity=".9">{escape(sub)}</text>')
+    x = PAD + 20 + sans_w(title, 27) + 1.2 * len(title) + 22
+    o.append(f'<text x="{x:.0f}" y="61" font-size="13" letter-spacing="1.6" fill="{DIM}" '
+             f'opacity=".95">{escape(sub)}</text>')
 
     sx = x + sans_w(sub, 13) + 1.6 * len(sub) + 24
-    o.append(f'<rect x="{sx:.0f}" y="51" width="{max(40, W - sx - 26):.0f}" height="1.5" '
+    o.append(f'<rect x="{sx:.0f}" y="53" width="{max(40, W - sx - 86):.0f}" height="1.5" '
              f'fill="url(#hr)"/>')
-    for i, cx in enumerate((W - 18, W - 34, W - 50)):
-        o.append(f'<circle class="bp" cx="{cx}" cy="52" r="3" fill="{accent}" '
+    for i, cx in enumerate((W - 40, W - 56, W - 72)):
+        o.append(f'<circle class="bp" cx="{cx}" cy="54" r="3" fill="{accent}" '
                  f'style="animation-delay:{i*0.35:.2f}s"/>')
-    o.append('</svg>')
+
+    o.append(f'<rect x=".75" y=".75" width="{W-1.5}" height="{H-1.5}" rx="14" fill="none" '
+             f'stroke="{LINE}" stroke-width="1.5"/>')
+    o.append('</g></svg>')
     (OUT / fname).write_text("\n".join(o))
 
 
