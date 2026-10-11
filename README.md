@@ -1,154 +1,65 @@
 <div align="center">
 
-<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="assets/hero.svg" width="100%" alt="Vaibhav Dangaich: AI agents, knowledge graphs, systems that finish the job" /></a>
+<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="assets/hero.svg" width="100%" alt="Vaibhav Dangaich: agents that finish the job, graphs that remember" /></a>
 
-<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0a0618?style=for-the-badge&logo=vercel&logoColor=ff2d55" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0a0618?style=for-the-badge&logo=linkedin&logoColor=2f6bff" alt="LinkedIn" /></a>
-<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-0a0618?style=for-the-badge&logo=gmail&logoColor=ff2d55" alt="Email" /></a>
-<a href="https://arxiv.org/search/?query=Dangaich&searchtype=author"><img src="https://img.shields.io/badge/arXiv-2%20preprints-0a0618?style=for-the-badge&logo=arxiv&logoColor=2f6bff&labelColor=0a0618&color=1a0f33" alt="arXiv" /></a>
-<a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/npm/v/@vaibhav_dangaich/mnex?style=for-the-badge&logo=npm&logoColor=ff2d55&label=mnex&labelColor=0a0618&color=1a0f33" alt="mnex on npm" /></a>
+<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-09090c?style=for-the-badge&logo=vercel&logoColor=e8132f" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-09090c?style=for-the-badge&logo=linkedin&logoColor=e8132f" alt="LinkedIn" /></a>
+<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-09090c?style=for-the-badge&logo=gmail&logoColor=e8132f" alt="Email" /></a>
+<a href="https://arxiv.org/search/?query=Dangaich&searchtype=author"><img src="https://img.shields.io/badge/arXiv-2%20preprints-09090c?style=for-the-badge&logo=arxiv&logoColor=e8132f&labelColor=09090c&color=7a0818" alt="arXiv: 2 preprints" /></a>
+<a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/npm/v/@vaibhav_dangaich/mnex?style=for-the-badge&logo=npm&logoColor=e8132f&label=mnex&labelColor=09090c&color=7a0818" alt="mnex on npm" /></a>
+
+<img src="assets/signal.svg" width="100%" alt="2 arXiv preprints · 400+ DSA problems · Top 5 of 200+ teams at IEEE CTF · CGPA 8.4 · mnex v1.5.1 on npm" />
 
 </div>
 
-## Hey, I'm Vaibhav 👋
+I build the parts that sit **between an LLM and a real system**: memory, state, audit trails,
+and turning messy documents into **knowledge graphs you can query**. End to end, from
+extension to worker to graph DB to UI. **Open to internships and new-grad roles.**
 
-Final-year **B.Tech in AI & ML at BIT Mesra** (CGPA 8.4). I work on the parts that sit
-**between an LLM and a real system**: memory, state, audit trails, and turning messy
-documents into **knowledge graphs you can query**. I ship end to end, from extension
-to worker to graph DB to UI, not just the demo.
+<img src="assets/s-exp.svg" width="100%" alt="01 Experience" />
+<img src="assets/timeline.svg" width="100%" alt="123 of AI, SDE Intern, May to Jul 2026: Razorpay payments, idempotent entitlements, ledger-based credits, vector-search recommendations on Azure OpenAI. Konect U, AI Intern, Feb to May 2026: NiFi and Kafka ingestion for a defence intelligence project; Neo4j knowledge graphs lifted entity-search recall from 70% to 95% with zero false merges. Konect U, Full-stack Intern, Oct to Dec 2025. BIT Mesra, B.Tech AI and ML, 2023 to 2027, CGPA 8.4." />
 
-- 📄 **2 arXiv preprints** on knowledge-graph construction from real government documents
-- 📦 **[mnex](https://www.npmjs.com/package/@vaibhav_dangaich/mnex)**, my terminal coding agent, is live on npm
-- 🏆 **Top 5 of 200+ teams** at the IEEE CTF · **400+ DSA problems** solved
-- 🔭 **Open to** internships and new-grad roles
+<img src="assets/s-research.svg" width="100%" alt="02 Research" />
+<img src="assets/research.svg" width="100%" alt="Two arXiv preprints on knowledge-graph construction" />
 
-## 💼 Experience
+<p align="center">📄 <a href="https://arxiv.org/abs/2608.10644"><b>Curate Before You Connect</b></a> &nbsp;·&nbsp; <a href="https://arxiv.org/abs/2607.28662"><b>Ontology-Guided, Deduplication-Aware Extraction</b></a></p>
 
-**123 of AI** · *Software Development Engineer Intern* · May 2026 – Jul 2026<br/>
-Cohort learning platform on Next.js and Node/TypeScript over Azure. Owned monetization
-(Razorpay orders, subscriptions and webhooks, idempotent entitlements, a ledger-based
-credits system) and built a recommendation engine on vector embeddings with Azure OpenAI.
-
-**Konect U** · *Artificial Intelligence Intern* · Feb 2026 – May 2026<br/>
-Real-time document ingestion with Apache NiFi and Kafka for a defence-oriented government
-intelligence project. LangChain LLM workflows and Neo4j knowledge graphs lifted
-entity-search recall from **70% to 95% with zero false merges**.
-
-**Konect U** · *Full Stack Intern* · Oct 2025 – Dec 2025<br/>
-Full-stack delivery in an agile team, from client requirements to shipped features.
-
-## 📄 Research
-
-- **[Curate Before You Connect: Identity and Ontology Tagging in a Production Knowledge Graph](https://arxiv.org/abs/2608.10644)**<br/>
-  <sub>arXiv:2608.10644 · Aug 2026 · Dangaich, Lewis, Pundalik</sub><br/>
-  98,795 government documents → a graph of 537,157 entities and 2.2M relationships, matched
-  through a record-identity ladder instead of name similarity. Anchored-evidence tagging cut
-  spurious role assignments from 36 to 4.
-
-- **[An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents](https://arxiv.org/abs/2607.28662)**<br/>
-  <sub>arXiv:2607.28662 · Jul 2026 · Dangaich, Lewis, Pundalik</sub><br/>
-  Two-pass extraction with a self-hosted Qwen3.5-9B over a Kafka stream. Ontology-slice
-  retrieval cut catalog overhead ~94%; a six-algorithm dedup pipeline raised recall
-  70% → 95% with zero false merges.
-
-## 🕸️ Featured builds
+<img src="assets/s-builds.svg" width="100%" alt="03 Featured builds" />
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-### [mnex](https://github.com/VaibhavDangaich/MNEX)
-An AI coding agent that lives in your terminal. A stateful LangGraph
-**planner → executor → critic** loop, 5-tier memory on SQLite WAL with sub-50ms recall,
-and a local-first Ollama → cloud router that cuts inference cost ~40%.
-
-`LangGraph` `Node.js` `SQLite` `Ollama`
-
-```console
-npm i -g @vaibhav_dangaich/mnex
-```
-
-</td>
-<td width="50%" valign="top">
-
-### [Orbit](https://github.com/VaibhavDangaich/Orbit)
-A distributed job scheduler in Go, built from scratch: etcd leader election, a
-transactional outbox into Kafka, `SKIP LOCKED` claiming in Postgres. Each run fires
-**exactly once** and a crash loses no work. A 1,000-job load test on Kubernetes:
-**1,000/1,000 in 97s**.
-
-`Go` `etcd` `Kafka` `Postgres` `Redis` `K8s`
-
-</td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/MNEX"><img src="assets/card-mnex.svg" width="100%" alt="mnex: terminal coding agent with a planner, executor, critic loop and 5-tier memory" /></a></td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/Orbit"><img src="assets/card-orbit.svg" width="100%" alt="Orbit: distributed Go scheduler, exactly-once runs, 1,000 of 1,000 jobs in 97 seconds" /></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [FOIAtlas](https://github.com/VaibhavDangaich/foiatlas)
-Turns released FOIA records into a queryable knowledge graph. Every **redaction is a
-node** carrying its legal exemption code, so what was hidden becomes a lead. A LangGraph
-ReAct agent handles search and graph edits. [Live demo ↗](https://foiatlas-499486403320.asia-southeast1.run.app)
-
-`GraphRAG` `Kùzu` `Gemini` `Cloud Run`
-
-</td>
-<td width="50%" valign="top">
-
-### [Servicing Agent](https://github.com/VaibhavDangaich/Codestreet_2026)
-Card-servicing agent where **the LLM never decides**, it only proposes. A versioned
-policy-as-code engine rules and cites the exact rule, and every step lands in a
-**tamper-evident hash-chained audit trail**.
-
-`Python` `Policy-as-code` `LLM agents`
-
-</td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/foiatlas"><img src="assets/card-foiatlas.svg" width="100%" alt="FOIAtlas: FOIA records as a knowledge graph where every redaction is a node" /></a></td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/Codestreet_2026"><img src="assets/card-servicing.svg" width="100%" alt="Servicing Agent: the LLM proposes, policy-as-code decides, with a hash-chained audit trail" /></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-### [Context Graph](https://github.com/VaibhavDangaich/Context_graph)
-Captures everything your AI coding agent did (messages, tool calls, files, errors) as
-a Neo4j graph, then exports the compact context a new session needs to
-**resume exactly where the last one stopped**.
-
-`Python` `Neo4j` `FastAPI`
-
-</td>
-<td width="50%" valign="top">
-
-### [Visual Activity Agent](https://github.com/VaibhavDangaich/visual-activity-agent)
-A privacy-conscious Chrome MV3 extension that ships browsing signals and downscaled
-screenshots to the server, where **Gemini vision** explains what you were doing.
-Perceptual-hash dedup drops near-identical frames.
-
-`Chrome MV3` `Node` `Gemini Vision`
-
-</td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/Context_graph"><img src="assets/card-contextgraph.svg" width="100%" alt="Context Graph: an AI agent session as a Neo4j graph so the next session resumes" /></a></td>
+<td width="50%"><a href="https://github.com/VaibhavDangaich/visual-activity-agent"><img src="assets/card-vaa.svg" width="100%" alt="Visual Activity Agent: Chrome MV3 extension where Gemini vision explains your browsing" /></a></td>
 </tr>
 </table>
 
-<sub>More: [Order Supervisor](https://github.com/VaibhavDangaich/Sagepilot) (durable AI supervisor on Temporal) · [PushMuse](https://github.com/VaibhavDangaich/ai-commit-cli) (AI commit messages) · [AI Resume Builder](https://github.com/VaibhavDangaich/AI-resume-builder) · [Portfolio](https://github.com/VaibhavDangaich/Portfolio)</sub>
+<p align="center"><sub>Also: <a href="https://github.com/VaibhavDangaich/Sagepilot">Order Supervisor</a> (durable AI supervisor on Temporal) · <a href="https://github.com/VaibhavDangaich/ai-commit-cli">PushMuse</a> (AI commit messages) · <a href="https://github.com/VaibhavDangaich/AI-resume-builder">AI Resume Builder</a> · <a href="https://foiatlas-499486403320.asia-southeast1.run.app">FOIAtlas live demo ↗</a></sub></p>
 
-## 🧰 Tech stack
+<img src="assets/s-stack.svg" width="100%" alt="04 Tech stack" />
 
-<p>
-  <img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp&theme=dark" alt="Python, TypeScript, JavaScript, Go, C++" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,tailwind,threejs&theme=dark" alt="React, Next.js, Node.js, Express, FastAPI, Tailwind, Three.js" /><br/>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite,supabase,kafka&theme=dark" alt="PostgreSQL, MongoDB, Redis, SQLite, Supabase, Kafka" /><br/>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,gcp,githubactions,vercel,git&theme=dark" alt="Docker, Kubernetes, Azure, GCP, GitHub Actions, Vercel, Git" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp,react,nextjs,nodejs,express,fastapi,tailwind,threejs&perline=12" alt="Python, TypeScript, JavaScript, Go, C++, React, Next.js, Node.js, Express, FastAPI, Tailwind, Three.js" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite,supabase,kafka,docker,kubernetes,azure,gcp,githubactions,vercel&perline=12" alt="PostgreSQL, MongoDB, Redis, SQLite, Supabase, Kafka, Docker, Kubernetes, Azure, GCP, GitHub Actions, Vercel" />
 </p>
 
-**AI & graphs:** LangGraph · LangChain · Temporal · Ollama · Gemini · Azure OpenAI · Neo4j · Kùzu · vector search
+<p align="center"><b>AI &amp; graphs:</b> LangGraph · LangChain · Temporal · Ollama · Gemini · Azure OpenAI · Neo4j · Kùzu · vector search</p>
 
-## 🐍 Contributions
+<img src="assets/s-stats.svg" width="100%" alt="05 By the numbers" />
+<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/stats.svg" width="100%" alt="GitHub stats: contributions, streaks and top languages, regenerated daily" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake-dark.svg" />
   <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
 </picture>
 
-<div align="center">
+<a href="mailto:vaibhavdangaich@gmail.com"><img src="assets/footer.svg" width="100%" alt="Got an idea worth building? Let's make it run: vaibhavdangaich@gmail.com" /></a>
 
-<sub>Got an idea worth building? → **[vaibhavdangaich@gmail.com](mailto:vaibhavdangaich@gmail.com)** · <img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=ff2d55&label=views" alt="profile views" /></sub>
-
-</div>
+<p align="center"><img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=e8132f&label=views" alt="profile views" /></p>
