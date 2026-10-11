@@ -1,145 +1,154 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/hero.svg" width="100%" alt="Vaibhav Dangaich — AI agents · knowledge graphs · full-stack" />
+<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="assets/hero.svg" width="100%" alt="Vaibhav Dangaich: AI agents, knowledge graphs, systems that finish the job" /></a>
 
-<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0E0E12?style=for-the-badge&logo=linkedin&logoColor=C6A87C" alt="LinkedIn" /></a> <a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-0E0E12?style=for-the-badge&logo=gmail&logoColor=C6A87C" alt="Email" /></a> <a href="https://arxiv.org/abs/2607.28662"><img src="https://img.shields.io/badge/arXiv%202607.28662-0E0E12?style=for-the-badge&logo=arxiv&logoColor=C6A87C" alt="arXiv preprint 2607.28662" /></a> <a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/badge/npm-0E0E12?style=for-the-badge&logo=npm&logoColor=C6A87C" alt="mnex on npm" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0E0E12?style=for-the-badge&logo=vercel&logoColor=C6A87C" alt="Portfolio" /></a>
-
-<img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=2B2B33&label=profile+views" alt="profile views" /> <img src="https://img.shields.io/github/followers/VaibhavDangaich?style=flat-square&color=2B2B33&labelColor=0E0E12&label=followers" alt="followers" /> <img src="https://img.shields.io/badge/open%20to-internships%20%26%20new%20grad%20roles-2B2B33?style=flat-square&labelColor=0E0E12" alt="open to internships and new grad roles" />
-
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/signal.svg" width="100%" alt="CGPA 8.4 at BIT Mesra · 400+ DSA problems solved · Top 5 of 200+ teams at IEEE CTF · arXiv preprint published · mnex v1.5.1 live on npm" />
-
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/terminal.svg" width="90%" alt="whoami — Vaibhav Dangaich, B.Tech AI &amp; ML @ BIT Mesra '27, CGPA 8.4. Focus: agents that finish the job, graphs that remember, tools devs keep. mnex v1.5.1: 5-tier memory, planner to executor to critic, local-first. arXiv 2607.28662. Shipped: foiatlas, mnex, context-graph, visual-activity-agent, order-supervisor." />
+<a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0a0618?style=for-the-badge&logo=vercel&logoColor=ff2d55" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/LinkedIn-0a0618?style=for-the-badge&logo=linkedin&logoColor=2f6bff" alt="LinkedIn" /></a>
+<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/Email-0a0618?style=for-the-badge&logo=gmail&logoColor=ff2d55" alt="Email" /></a>
+<a href="https://arxiv.org/search/?query=Dangaich&searchtype=author"><img src="https://img.shields.io/badge/arXiv-2%20preprints-0a0618?style=for-the-badge&logo=arxiv&logoColor=2f6bff&labelColor=0a0618&color=1a0f33" alt="arXiv" /></a>
+<a href="https://www.npmjs.com/package/@vaibhav_dangaich/mnex"><img src="https://img.shields.io/npm/v/@vaibhav_dangaich/mnex?style=for-the-badge&logo=npm&logoColor=ff2d55&label=mnex&labelColor=0a0618&color=1a0f33" alt="mnex on npm" /></a>
 
 </div>
 
-<br/>
+## Hey, I'm Vaibhav 👋
 
-- 🧠 I like the problems that sit **between an LLM and a real system** — memory, state, audit trails, the unglamorous parts that make an agent trustworthy.
-- 🕸️ Most of my recent work turns messy things into **graphs you can query**: agent sessions, FOIA documents, defence intelligence archives, order lifecycles.
-- 🛠️ I ship end-to-end — extension, backend, worker, graph DB, UI — instead of stopping at the demo.
-- ⚡ Coding isn't just logic to me; it's creativity with a purpose.
+Final-year **B.Tech in AI & ML at BIT Mesra** (CGPA 8.4). I work on the parts that sit
+**between an LLM and a real system**: memory, state, audit trails, and turning messy
+documents into **knowledge graphs you can query**. I ship end to end, from extension
+to worker to graph DB to UI, not just the demo.
 
-<br/>
+- 📄 **2 arXiv preprints** on knowledge-graph construction from real government documents
+- 📦 **[mnex](https://www.npmjs.com/package/@vaibhav_dangaich/mnex)**, my terminal coding agent, is live on npm
+- 🏆 **Top 5 of 200+ teams** at the IEEE CTF · **400+ DSA problems** solved
+- 🔭 **Open to** internships and new-grad roles
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-exp.svg" width="100%" alt="01 — Experience" />
+## 💼 Experience
 
-<a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/timeline.svg" width="100%" alt="123 of AI, Software Development Engineer Intern, May 2026 to Jul 2026 — cohort learning platform on Next.js and Node/TypeScript over Azure; owned monetization with Razorpay, idempotent entitlements and a ledger-based credits system; built a recommendation engine on vector embeddings and semantic search with Azure OpenAI. Konect U, Artificial Intelligence Intern, Feb 2026 to May 2026 — secure real-time ingestion with Apache NiFi and Kafka routing 4 document formats for a defence-oriented government intelligence project; LangChain LLM workflows and Neo4j knowledge graphs lifted entity-search recall from 70% to 95% with zero false merges. Konect U, Full Stack Intern, Oct 2025 to Dec 2025 — full-stack delivery in an agile team. BIT Mesra, B.Tech in Artificial Intelligence and Machine Learning, Sep 2023 to Sep 2027, CGPA 8.4." /></a>
+**123 of AI** · *Software Development Engineer Intern* · May 2026 – Jul 2026<br/>
+Cohort learning platform on Next.js and Node/TypeScript over Azure. Owned monetization
+(Razorpay orders, subscriptions and webhooks, idempotent entitlements, a ledger-based
+credits system) and built a recommendation engine on vector embeddings with Azure OpenAI.
 
-<br/>
+**Konect U** · *Artificial Intelligence Intern* · Feb 2026 – May 2026<br/>
+Real-time document ingestion with Apache NiFi and Kafka for a defence-oriented government
+intelligence project. LangChain LLM workflows and Neo4j knowledge graphs lifted
+entity-search recall from **70% to 95% with zero false merges**.
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-research.svg" width="100%" alt="02 — Research" />
+**Konect U** · *Full Stack Intern* · Oct 2025 – Dec 2025<br/>
+Full-stack delivery in an agile team, from client requirements to shipped features.
 
-<a href="https://arxiv.org/abs/2607.28662"><img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/publication.svg" width="100%" alt="Preprint arXiv:2607.28662, cs.AI, July 2026 — An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents. Vaibhav Dangaich, Kevin Lewis, Kundeshwar Pundalik. Recall 70% to 95%, zero false merges, 94% catalog overhead cut, self-hosted Qwen3.5-9B, Kafka document stream." /></a>
+## 📄 Research
 
-<div align="center">
+- **[Curate Before You Connect: Identity and Ontology Tagging in a Production Knowledge Graph](https://arxiv.org/abs/2608.10644)**<br/>
+  <sub>arXiv:2608.10644 · Aug 2026 · Dangaich, Lewis, Pundalik</sub><br/>
+  98,795 government documents → a graph of 537,157 entities and 2.2M relationships, matched
+  through a record-identity ladder instead of name similarity. Anchored-evidence tagging cut
+  spurious role assignments from 36 to 4.
 
-**[An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents](https://arxiv.org/abs/2607.28662)** — ontology-guided two-pass extraction with a self-hosted Qwen3.5-9B over a Kafka document stream. Live ontology-slice retrieval cut catalog overhead ~94%, and a six-algorithm deduplication + embedding-resolution pipeline raised search recall from 70% to 95% with zero false merges.
+- **[An Ontology-Guided, Deduplication-Aware Extraction Layer for Knowledge Graph Construction from Heterogeneous Documents](https://arxiv.org/abs/2607.28662)**<br/>
+  <sub>arXiv:2607.28662 · Jul 2026 · Dangaich, Lewis, Pundalik</sub><br/>
+  Two-pass extraction with a self-hosted Qwen3.5-9B over a Kafka stream. Ontology-slice
+  retrieval cut catalog overhead ~94%; a six-algorithm dedup pipeline raised recall
+  70% → 95% with zero false merges.
 
-</div>
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-builds.svg" width="100%" alt="03 — Featured builds" />
+## 🕸️ Featured builds
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-mnex.svg" width="100%" alt="mnex — 5-tier memory, LangGraph, npm v1.5.1" />](https://github.com/VaibhavDangaich/MNEX)
+### [mnex](https://github.com/VaibhavDangaich/MNEX)
+An AI coding agent that lives in your terminal. A stateful LangGraph
+**planner → executor → critic** loop, 5-tier memory on SQLite WAL with sub-50ms recall,
+and a local-first Ollama → cloud router that cuts inference cost ~40%.
 
-A production-grade **AI coding agent that lives in your terminal**, driven by a stateful LangGraph **planner → executor → critic** loop for self-correcting multi-step reasoning over your codebase.
-
-A 5-tier memory system on SQLite WAL gives sub-50ms recall; a local-first router (Ollama → cloud) cuts inference cost ~40%. Ships a DPO-exportable eval harness and a plugin SDK — zero external infra.
+`LangGraph` `Node.js` `SQLite` `Ollama`
 
 ```console
-$ npm i -g @vaibhav_dangaich/mnex
+npm i -g @vaibhav_dangaich/mnex
 ```
 
 </td>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-foiatlas.svg" width="100%" alt="FOIAtlas — Kùzu, Gemini, GraphRAG" />](https://github.com/VaibhavDangaich/foiatlas)
+### [Orbit](https://github.com/VaibhavDangaich/Orbit)
+A distributed job scheduler in Go, built from scratch: etcd leader election, a
+transactional outbox into Kafka, `SKIP LOCKED` claiming in Postgres. Each run fires
+**exactly once** and a crash loses no work. A 1,000-job load test on Kubernetes:
+**1,000/1,000 in 97s**.
 
-An investigative **GraphRAG** tool that turns released FOIA/RTI records into a queryable knowledge graph through a six-stage pipeline: parse → extract → resolve → embed → write.
-
-Its signature idea: every **redaction is a first-class node** carrying its legal exemption code — concealed spans become queryable leads instead of absences. Plus semantic-search chat, a LangGraph ReAct agent for schema-validated graph edits, a REST API and a Cytoscape explorer.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-contextgraph.svg" width="100%" alt="Context Graph — Python, Neo4j, FastAPI" />](https://github.com/VaibhavDangaich/Context_graph)
-
-Captures **everything your AI coding agent did** — messages, tool calls, files touched, errors hit — as a Neo4j knowledge graph.
-
-The payoff: it exports the compact context that lets a brand-new session **resume exactly where the last one stopped**.
-
-</td>
-<td width="50%" valign="top">
-
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-vaa.svg" width="100%" alt="Visual Activity Agent — Chrome MV3, Supabase, Gemini Vision" />](https://github.com/VaibhavDangaich/visual-activity-agent)
-
-A privacy-conscious **Chrome MV3 extension** that ships browsing signals and downscaled screenshots to Supabase, then lets **Gemini vision** explain what you were actually doing.
-
-Engineered so the browser stays fast: capture cheap, ship small, do the expensive work server-side.
+`Go` `etcd` `Kafka` `Postgres` `Redis` `K8s`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-supervisor.svg" width="100%" alt="Order Supervisor — Temporal, Python, durable" />](https://github.com/VaibhavDangaich/Sagepilot)
+### [FOIAtlas](https://github.com/VaibhavDangaich/foiatlas)
+Turns released FOIA records into a queryable knowledge graph. Every **redaction is a
+node** carrying its legal exemption code, so what was hidden becomes a lead. A LangGraph
+ReAct agent handles search and graph edits. [Live demo ↗](https://foiatlas-499486403320.asia-southeast1.run.app)
 
-A **long-running AI supervisor** that owns one order's entire lifecycle on **Temporal** — one workflow per order.
-
-It reasons at three triggers (start, incoming signal, scheduled wake-up), never in a tight loop, and sleeps in between. Plus cross-run semantic memory.
+`GraphRAG` `Kùzu` `Gemini` `Cloud Run`
 
 </td>
 <td width="50%" valign="top">
 
-[<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/card-servicing.svg" width="100%" alt="Servicing Agent — policy-as-code, audit chain, Python" />](https://github.com/VaibhavDangaich/Codestreet_2026)
+### [Servicing Agent](https://github.com/VaibhavDangaich/Codestreet_2026)
+Card-servicing agent where **the LLM never decides**, it only proposes. A versioned
+policy-as-code engine rules and cites the exact rule, and every step lands in a
+**tamper-evident hash-chained audit trail**.
 
-A card-servicing agent where **the LLM never decides** — it only proposes.
+`Python` `Policy-as-code` `LLM agents`
 
-A versioned **policy-as-code** engine rules and cites the exact rule; a self-verifying pass must agree; every step lands in a **tamper-evident hash-chained audit trail**. Denials come back with a counterfactual.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Context Graph](https://github.com/VaibhavDangaich/Context_graph)
+Captures everything your AI coding agent did (messages, tool calls, files, errors) as
+a Neo4j graph, then exports the compact context a new session needs to
+**resume exactly where the last one stopped**.
+
+`Python` `Neo4j` `FastAPI`
+
+</td>
+<td width="50%" valign="top">
+
+### [Visual Activity Agent](https://github.com/VaibhavDangaich/visual-activity-agent)
+A privacy-conscious Chrome MV3 extension that ships browsing signals and downscaled
+screenshots to the server, where **Gemini vision** explains what you were doing.
+Perceptual-hash dedup drops near-identical frames.
+
+`Chrome MV3` `Node` `Gemini Vision`
 
 </td>
 </tr>
 </table>
 
-<div align="center">
+<sub>More: [Order Supervisor](https://github.com/VaibhavDangaich/Sagepilot) (durable AI supervisor on Temporal) · [PushMuse](https://github.com/VaibhavDangaich/ai-commit-cli) (AI commit messages) · [AI Resume Builder](https://github.com/VaibhavDangaich/AI-resume-builder) · [Portfolio](https://github.com/VaibhavDangaich/Portfolio)</sub>
 
-🎨 &nbsp;**[Portfolio](https://github.com/VaibhavDangaich/Portfolio)** — an editorial Next.js 15 site with a 3D knowledge-graph hero, drag-throw physics cards, and a hanging bulb an arrow shatters to toggle dark mode. → **[see it live](https://portfolio-khaki-ten-24.vercel.app)**
+## 🧰 Tech stack
 
-</div>
+<p>
+  <img src="https://skillicons.dev/icons?i=py,ts,js,go,cpp&theme=dark" alt="Python, TypeScript, JavaScript, Go, C++" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,express,fastapi,tailwind,threejs&theme=dark" alt="React, Next.js, Node.js, Express, FastAPI, Tailwind, Three.js" /><br/>
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite,supabase,kafka&theme=dark" alt="PostgreSQL, MongoDB, Redis, SQLite, Supabase, Kafka" /><br/>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,azure,gcp,githubactions,vercel,git&theme=dark" alt="Docker, Kubernetes, Azure, GCP, GitHub Actions, Vercel, Git" />
+</p>
 
-<br/>
+**AI & graphs:** LangGraph · LangChain · Temporal · Ollama · Gemini · Azure OpenAI · Neo4j · Kùzu · vector search
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stack.svg" width="100%" alt="04 — Tech stack" />
+## 🐍 Contributions
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/stack.svg" width="100%" alt="Languages: Python, TypeScript, JavaScript, C++, C, SQL. AI and agents: LangGraph, LangChain, Gemini, Azure OpenAI, Ollama, Temporal. Web: Next.js, React, Node.js, Express, FastAPI, Tailwind, Three.js. Data and graphs: Neo4j, Kùzu, PostgreSQL, MongoDB, SQLite, Supabase, vector DBs. Infra and tools: Docker, Azure, Kafka, NiFi, Git, GitHub Actions, Vercel, Postman, Jest." />
-
-<br/>
-
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-snake.svg" width="100%" alt="06 — The snake eats my contribution graph" />
-
-<div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
-  <img alt="a snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
+  <img alt="A snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/output/github-snake.svg" />
 </picture>
-</div>
-
-<br/>
-
-<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/footer.svg" width="100%" alt="Got an idea worth building? Let's make it run — vaibhavdangaich@gmail.com" /></a>
 
 <div align="center">
 
-<a href="mailto:vaibhavdangaich@gmail.com"><img src="https://img.shields.io/badge/say%20hi-0E0E12?style=for-the-badge&labelColor=0E0E12&color=1C1C22" alt="say hi" /></a> <a href="https://linkedin.com/in/vaibhav-dangaich"><img src="https://img.shields.io/badge/connect-0E0E12?style=for-the-badge&logo=linkedin&logoColor=C6A87C&color=1C1C22" alt="connect on LinkedIn" /></a> <a href="https://portfolio-khaki-ten-24.vercel.app"><img src="https://img.shields.io/badge/see%20the%20work-0E0E12?style=for-the-badge&labelColor=0E0E12&color=1C1C22" alt="see the work" /></a>
-
-<sub>⭐ If something here was useful, a star makes my day.</sub>
+<sub>Got an idea worth building? → **[vaibhavdangaich@gmail.com](mailto:vaibhavdangaich@gmail.com)** · <img src="https://komarev.com/ghpvc/?username=VaibhavDangaich&style=flat-square&color=ff2d55&label=views" alt="profile views" /></sub>
 
 </div>
