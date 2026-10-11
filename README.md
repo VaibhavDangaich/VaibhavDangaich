@@ -122,18 +122,6 @@ A versioned **policy-as-code** engine rules and cites the exact rule; a self-ver
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-stats.svg" width="100%" alt="05 — By the numbers" />
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats-sigma-five.vercel.app/api?username=VaibhavDangaich&show_icons=true&include_all_commits=true&count_private=true&bg_color=0E0E12&title_color=C6A87C&text_color=9A9AA4&icon_color=C6A87C&border_color=26262E&border_radius=14&ring_color=C6A87C" alt="github stats" /> <img height="170" src="https://streak-stats.demolab.com/?user=VaibhavDangaich&background=0E0E12&border=26262E&stroke=26262E&ring=C6A87C&fire=C6A87C&currStreakNum=F0EDE8&sideNums=9A9AA4&currStreakLabel=C6A87C&sideLabels=9A9AA4&dates=4E4E58&border_radius=14" alt="contribution streak" />
-
-<img width="99%" src="https://github-readme-activity-graph.vercel.app/graph?username=VaibhavDangaich&bg_color=0E0E12&color=F0EDE8&line=C6A87C&point=F0EDE8&title_color=C6A87C&area=true&area_color=C6A87C&radius=14&custom_title=Contribution%20graph" alt="contribution activity graph" />
-
-</div>
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/VaibhavDangaich/VaibhavDangaich/main/assets/s-snake.svg" width="100%" alt="06 — The snake eats my contribution graph" />
 
 <div align="center">
